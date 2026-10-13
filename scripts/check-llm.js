@@ -14,16 +14,17 @@ try {
   console.log(`/models -> HTTP ${r.status}. Fast models your key can use:\n  ${ids.join(', ') || JSON.stringify(j).slice(0, 300)}\n`);
 } catch (e) { console.log(`/models failed: ${e.message}\n`); }
 
-for (const model of cfg.chain) {
+for (const t of cfg.targets) {
+  const model = t.model;
   const t0 = Date.now();
   try {
     const body = { model, max_tokens: 200, messages: [{ role: 'user', content: 'Reply with exactly: {"ok":true}' }] };
-    if (cfg.provider === 'gemini') body.reasoning_effort = /2\.5-flash/.test(model) ? 'none' : 'low';
-    const r = await fetch(`${cfg.base}/chat/completions`, { method: 'POST', headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${cfg.key}` }, body: JSON.stringify(body), signal: AbortSignal.timeout(30000) });
+    if (t.provider === 'gemini') body.reasoning_effort = /2\.5-flash/.test(model) ? 'none' : 'low';
+    const r = await fetch(`${t.base}/chat/completions`, { method: 'POST', headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${t.key}` }, body: JSON.stringify(body), signal: AbortSignal.timeout(30000) });
     const t = await r.text();
-    console.log(`${r.ok ? '✅' : '❌'} ${model.padEnd(22)} HTTP ${r.status} in ${Date.now() - t0}ms  ${r.ok ? (JSON.parse(t).choices?.[0]?.message?.content || '').slice(0, 60) : t.slice(0, 160).replace(/\s+/g, ' ')}`);
+    console.log(`${r.ok ? '✅' : '❌'} ${t.id.padEnd(30)} HTTP ${r.status} in ${Date.now() - t0}ms  ${r.ok ? (JSON.parse(t).choices?.[0]?.message?.content || '').slice(0, 60) : t.slice(0, 160).replace(/\s+/g, ' ')}`);
   } catch (e) {
-    console.log(`❌ ${model.padEnd(22)} ${e.name === 'TimeoutError' ? 'TIMED OUT after 30s' : e.message}`);
+    console.log(`❌ ${t.id.padEnd(30)} ${e.name === 'TimeoutError' ? 'TIMED OUT after 30s' : e.message}`);
   }
 }
 console.log('\nPut the first ✅ model in .env as LLM_MODELS=<model> to skip the others.');

@@ -8,6 +8,7 @@ import crypto from 'node:crypto';
 import * as store from './store.js';
 import { parseLinkedIn, parseInstagram, scrapeLinkedIn, scrapeInstagram, scrapeLinkedInBatch, scrapeInstagramBatch, manualSource } from './scrape.js';
 import * as agents from './agents.js';
+import { cancelAll } from './llm.js';
 
 export const bus = new EventEmitter();
 bus.setMaxListeners(100);
@@ -22,6 +23,27 @@ const setRun = (patch) => {
   Object.assign(run, patch);
   emit('run', { run });
 };
+
+// ---- Stop: bump a generation counter; every loop checks it and bails out ----
+let gen = 0;
+const STOP = 'Stopped by user';
+const isStop = (e) => e && String(e.message || e).includes(STOP);
+const check = (g) => { if (g !== gen) throw new Error(STOP); };
+export function stopAll() {
+  gen++;
+  cancelAll(); // abort in-flight LLM calls and anything waiting on rate limits
+  inflight.clear();
+  for (const p of db().people) {
+    if (['scraping', 'analyzing'].includes(p.status)) setStatus(p, p.profile ? 'ready' : p.raw ? 'scraped' : 'new');
+  }
+  const live = db().dates.filter((d) => d.status === 'live');
+  db().dates = db().dates.filter((d) => d.status !== 'live');
+  live.forEach((d) => emit('date:error', { dateId: d.id, error: STOP }));
+  store.save();
+  setRun({ running: false, stage: 'Stopped', done: 0, total: 0 });
+  log(`Stopped all agents${live.length ? ` (${live.length} unfinished date(s) discarded)` : ''}`, 'warn');
+  emit('reload', {});
+}
 
 const db = () => store.get();
 export const findPerson = (id) => db().people.find((p) => p.id === id);
@@ -54,6 +76,41 @@ export function addPerson({ linkedinUrl, instagramUrl, gender, seeking, manualLi
   emit('person', { person: publicPerson(p) });
   log(`Added ${li.slug} / @${ig.username}`);
   return p;
+}
+
+// Edit a person's links / preferences. If a link changed, their old data, analysis, scores and
+// dates are dropped (the scrape cache still makes re-fetching unchanged links free).
+export function updatePerson(id, { linkedinUrl, instagramUrl, gender, seeking, manualLinkedin, manualInstagram }) {
+  const p = findPerson(id);
+  if (!p) throw new Error('Not found');
+  if (inflight.has(id) || ['scraping', 'analyzing'].includes(p.status)) throw new Error('This agent is busy. Press Stop first, then edit.');
+  const li = parseLinkedIn(linkedinUrl ?? p.linkedinUrl);
+  const ig = parseInstagram(instagramUrl ?? p.instagramUrl);
+  if (!li) throw new Error(`Not a LinkedIn profile URL: ${linkedinUrl}`);
+  if (!ig) throw new Error(`Not an Instagram profile URL: ${instagramUrl}`);
+  const dup = db().people.find((o) => o.id !== id && (o.liSlug.toLowerCase() === li.slug.toLowerCase() || o.igUsername === ig.username));
+  if (dup) throw new Error(`Those links already belong to ${dup.profile?.name || dup.liSlug}`);
+  const manual = { linkedin: manualLinkedin ?? p.manual?.linkedin ?? '', instagram: manualInstagram ?? p.manual?.instagram ?? '' };
+  const sourceChanged = li.slug !== p.liSlug || ig.username !== p.igUsername || manual.linkedin !== (p.manual?.linkedin || '') || manual.instagram !== (p.manual?.instagram || '');
+  const prefsChanged = (gender && gender !== p.gender) || (seeking && seeking !== p.seeking);
+  Object.assign(p, { linkedinUrl: li.url, instagramUrl: ig.url, liSlug: li.slug, igUsername: ig.username, manual });
+  if (gender) p.gender = gender;
+  if (seeking) p.seeking = seeking;
+  if (sourceChanged) {
+    for (const k of ['raw', 'notes', 'profile', 'rawHash', 'avatar', 'avatarFile', 'scrapeWarnings', 'scrapedAt', 'analyzedAt']) delete p[k];
+    p.status = 'new';
+    p.error = undefined;
+  }
+  if (sourceChanged || prefsChanged) {
+    const d = db();
+    d.dates = d.dates.filter((x) => x.a !== id && x.b !== id);
+    delete d.compat[id];
+    for (const k of Object.keys(d.compat)) delete d.compat[k][id];
+  }
+  store.save();
+  log(`Updated ${li.slug} / @${ig.username}${sourceChanged ? ' (links changed: will re-read)' : ''}`);
+  emit('reload', {});
+  return { person: p, sourceChanged };
 }
 
 export function removePerson(id) {
@@ -134,7 +191,9 @@ async function scrapeMany(people, force = false) {
       igUsers.length ? scrapeInstagramBatch(igUsers) : new Map(),
     ]);
   }
+  const g = gen;
   for (const p of people) {
+    if (g !== gen) return;
     await scrapePerson(p, { li, ig }, force);
     setRun({ done: run.done + 1 });
   }
@@ -219,6 +278,7 @@ export async function analyzePerson(p, { force = false } = {}) {
     return true;
   }
   setStatus(p, 'analyzing');
+  const g = gen;
   try {
     const read = async (source) => {
       if (!p.raw?.[source]) return null;
@@ -228,9 +288,12 @@ export async function analyzePerson(p, { force = false } = {}) {
       return notes;
     };
     const [liNotes, igNotes] = await Promise.all([read('linkedin'), read('instagram')]);
+    check(g);
     p.notes = { linkedin: liNotes, instagram: igNotes };
     emit('reading', { personId: p.id, source: 'analyst', phase: 'start' });
-    p.profile = await agents.buildProfile({ linkedin: p.raw.linkedin, instagram: p.raw.instagram, liNotes, igNotes });
+    const profile = await agents.buildProfile({ linkedin: p.raw.linkedin, instagram: p.raw.instagram, liNotes, igNotes });
+    check(g);
+    p.profile = profile;
     p.analyzedAt = new Date().toISOString();
     p.rawHash = h;
     db().cache.analysis[h] = { at: p.analyzedAt, notes: p.notes, profile: p.profile };
@@ -238,6 +301,7 @@ export async function analyzePerson(p, { force = false } = {}) {
     log(`Agent finished reading ${p.profile.name}`);
     return true;
   } catch (e) {
+    if (isStop(e)) return false; // status already reset by stopAll
     setStatus(p, 'error', `Analysis failed: ${e.message}`);
     log(`Analysis failed for ${p.liSlug}: ${e.message}`, 'error');
     return false;
@@ -285,8 +349,10 @@ export async function runDate(aId, bId) {
   emit('date:start', { date: dateSummary(date) });
   log(`Date started: ${a.profile.name} x ${b.profile.name}`);
 
+  const g = gen;
   try {
     for (let t = 0; t < total; t++) {
+      check(g);
       const [self, other, side] = t % 2 === 0 ? [a, b, 'a'] : [b, a, 'b'];
       const transcript = date.turns.map((m) => ({ name: m.name, text: m.text }));
       emit('date:typing', { dateId: date.id, side, name: self.profile.name });
@@ -295,11 +361,13 @@ export async function runDate(aId, bId) {
       date.turns.push(msg);
       emit('date:msg', { dateId: date.id, msg });
     }
+    check(g);
     const transcript = date.turns.map((m) => ({ name: m.name, text: m.text }));
     const [da, dbb] = await Promise.all([
       agents.debrief({ self: a, other: b, transcript }),
       agents.debrief({ self: b, other: a, transcript }),
     ]);
+    check(g);
     date.debrief = { a: da, b: dbb };
     date.mutual = mutualScore(da.score, dbb.score);
     date.match = !!(da.secondDate && dbb.secondDate);
@@ -310,6 +378,7 @@ export async function runDate(aId, bId) {
     log(`Date done: ${a.profile.name} x ${b.profile.name} -> mutual ${date.mutual}${date.match ? ' (both want a 2nd date!)' : ''}`);
     return date;
   } catch (e) {
+    if (isStop(e)) { db().dates = db().dates.filter((d) => d !== date); throw e; }
     date.status = 'error';
     date.error = e.message;
     db().dates = db().dates.filter((d) => d !== date);
@@ -365,10 +434,10 @@ function pairsToDate(k = Number(process.env.SHORTLIST_K || 4), onlyFor) {
   return [...pairs.values()];
 }
 
-async function pool(items, size, fn) {
+async function pool(items, size, fn, g = gen) {
   let i = 0;
   const workers = Array.from({ length: Math.min(size, items.length) }, async () => {
-    while (i < items.length) {
+    while (i < items.length && g === gen) {
       const item = items[i++];
       try { await fn(item); } catch { /* logged inside */ }
       setRun({ done: run.done + 1 });
@@ -381,29 +450,36 @@ async function pool(items, size, fn) {
 export async function runAll() {
   if (run.running) throw new Error('A run is already in progress');
   setRun({ running: true, startedAt: Date.now() });
+  const g = gen;
   try {
     const people = db().people;
 
     const toScrape = people.filter((p) => ['new', 'error'].includes(p.status) && !p.raw);
     setRun({ stage: 'Scraping LinkedIn + Instagram', done: 0, total: toScrape.length });
     await scrapeMany(toScrape);
+    check(g);
 
     const toAnalyze = people.filter((p) => p.raw && !p.profile && p.status !== 'analyzing');
     setRun({ stage: 'Agents reading their people', done: 0, total: toAnalyze.length });
-    await pool(toAnalyze, 4, analyzePerson);
+    await pool(toAnalyze, 4, analyzePerson, g);
+    check(g);
 
     const toScreen = ready().filter((p) => ready().some((o) => compatible(p, o) && !store.getCompat(p.id, o.id)));
     setRun({ stage: 'Agents screening candidates', done: 0, total: toScreen.length });
-    await pool(toScreen, 4, screenFor);
+    await pool(toScreen, 4, screenFor, g);
+    check(g);
 
     const pairs = pairsToDate();
     setRun({ stage: 'Agents on dates', done: 0, total: pairs.length });
-    await pool(pairs, 3, ([a, b]) => runDate(a, b));
+    await pool(pairs, 3, ([a, b]) => runDate(a, b), g);
+    check(g);
 
     setRun({ stage: 'Rankings ready', done: 0, total: 0 });
     log(`Run complete: ${ready().length} profiles, ${db().dates.length} dates`);
+  } catch (e) {
+    if (!isStop(e)) throw e;
   } finally {
-    setRun({ running: false });
+    if (g === gen) setRun({ running: false });
     store.flush();
   }
 }
@@ -421,13 +497,25 @@ export async function processPerson(id, opts = {}) {
   try { await processPersonInner(p, opts); } finally { inflight.delete(id); }
 }
 async function processPersonInner(p, { refresh = false, reanalyze = false } = {}) {
+  const g = gen;
+  try {
+    await processSteps(p, { refresh, reanalyze }, g);
+  } catch (e) {
+    if (!isStop(e)) throw e;
+  }
+}
+async function processSteps(p, { refresh, reanalyze }, g) {
   if ((refresh || !p.raw) && !(await scrapePerson(p, null, refresh))) return;
+  check(g);
   if ((refresh || reanalyze || !p.profile) && !(await analyzePerson(p, { force: reanalyze }))) return;
+  check(g);
   await screenFor(p);
+  check(g);
   const pairs = pairsToDate(undefined, p.id);
   log(`${firstName(p)}'s agent is going on ${pairs.length} dates`);
   for (const [a, b] of pairs) {
-    try { await runDate(a, b); } catch { /* logged */ }
+    check(g);
+    try { await runDate(a, b); } catch (e) { if (isStop(e)) throw e; /* else logged */ }
   }
   emit('rankings', { personId: p.id });
 }
@@ -445,6 +533,7 @@ export function rankingsFor(pid) {
       const compat = cs.length ? Math.round(cs.reduce((s, x) => s + x, 0) / cs.length) : null;
       const d = dateBetween(p.id, q.id);
       const done = d?.status === 'done';
+      const live = d?.status === 'live';
       const mine = done ? (d.a === p.id ? d.debrief.a : d.debrief.b) : null;
       const theirs = done ? (d.a === p.id ? d.debrief.b : d.debrief.a) : null;
       const score = done ? Math.round(0.7 * d.mutual + 0.3 * (compat ?? d.mutual)) : Math.round((compat ?? 0) * 0.85);
@@ -455,9 +544,10 @@ export function rankingsFor(pid) {
         avatar: q.avatarFile || q.avatar,
         score,
         compat,
-        compatReason: c1?.reason || c2?.reason || null,
+        compatReason: c1?.reason || (c2?.reason ? `${q.profile.name.split(' ')[0]}'s agent: ${c2.reason}` : null),
         dated: done,
-        dateId: done ? d.id : null,
+        dateId: done || live ? d.id : null,
+        live,
         mutual: done ? d.mutual : null,
         myAgentScore: mine?.score ?? null,
         theirAgentScore: theirs?.score ?? null,

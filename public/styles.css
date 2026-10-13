@@ -185,3 +185,8 @@ pre.raw { white-space: pre-wrap; word-break: break-word; font-size: 12px; backgr
 code { background: var(--paper-2); padding: 1px 6px; border-radius: 5px; font-size: 13px; }
 
 .rank a { text-decoration: none; }
+
+.topright { margin-left: auto; display: flex; gap: 10px; align-items: center; }
+.topright .runpill { margin-left: 0; }
+.btn.stop { background: var(--red); border-color: var(--red); color: #fff; }
+.btn.stop:hover { background: #8f2525; border-color: #8f2525; }

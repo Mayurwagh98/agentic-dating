@@ -26,6 +26,24 @@ function toast(msg) {
 // ---------------------------------------------------------------- live events
 let config = {};
 let runState = { running: false };
+// what's busy right now (for the Stop button)
+const busyPeople = new Set();
+const liveDates = new Set();
+function renderStop() {
+  const busy = runState.running || busyPeople.size > 0 || liveDates.size > 0;
+  document.getElementById('stopBtn').classList.toggle('hidden', !busy);
+}
+function trackBusy(ev) {
+  if (ev.type === 'person') {
+    if (['scraping', 'analyzing'].includes(ev.person.status)) busyPeople.add(ev.person.id);
+    else busyPeople.delete(ev.person.id);
+  }
+  if (ev.type === 'date:start') liveDates.add(ev.date.id);
+  if (ev.type === 'date:done') liveDates.delete(ev.date.id);
+  if (ev.type === 'date:error') liveDates.delete(ev.dateId);
+  if (ev.type === 'reload') { busyPeople.clear(); liveDates.clear(); }
+  renderStop();
+}
 const listeners = new Set();
 const on = (fn) => { listeners.add(fn); return () => listeners.delete(fn); };
 function connect() {
@@ -33,6 +51,7 @@ function connect() {
   es.onmessage = (e) => {
     const ev = JSON.parse(e.data);
     if (ev.type === 'run') { runState = ev.run; renderRunPill(); }
+    trackBusy(ev);
     listeners.forEach((fn) => fn(ev));
   };
   es.onerror = () => { es.close(); setTimeout(connect, 2000); };
@@ -135,7 +154,7 @@ function dateCard(d) {
     <div class="spread"><div class="pair">${avatar(d.aAvatar, d.aName, 'sm')}${avatar(d.bAvatar, d.bName, 'sm')}</div>
     ${d.status === 'live' ? '<span class="chip warn"><span class="spinner"></span> live now</span>' : `<span class="chip ${d.match ? 'wine' : ''}">${d.match ? '♥ both want a 2nd date' : `mutual ${d.mutual}`}</span>`}</div>
     <h3 style="margin-top:12px">${esc(d.aName)} × ${esc(d.bName)}</h3>
-    <div class="muted small">“${esc((d.opener || '').slice(0, 120))}${(d.opener || '').length > 120 ? '…' : ''}”</div></a>`;
+    <div class="muted small">${d.opener ? `“${esc(d.opener.slice(0, 120))}${d.opener.length > 120 ? '…' : ''}”` : 'The agents are just sitting down…'}</div></a>`;
 }
 
 // ---------------------------------------------------------------- add
@@ -198,6 +217,40 @@ async function addPage() {
   document.getElementById('runAll').onclick = startRun;
 }
 
+// ---------------------------------------------------------------- edit / remove (shared)
+function manageBox(p) {
+  return `<details class="card section" id="manage" style="padding:16px 22px"><summary style="margin:0">Edit links or remove this person</summary>
+    <form id="editForm" style="margin-top:6px">
+      <div class="grid g2" style="gap:12px">
+        <div><label>LinkedIn URL</label><input name="linkedinUrl" value="${esc(p.linkedinUrl)}" required /></div>
+        <div><label>Instagram URL (public)</label><input name="instagramUrl" value="${esc(p.instagramUrl)}" required /></div>
+        <div><label>They are</label><select name="gender">${['unspecified', 'woman', 'man', 'nonbinary'].map((g) => `<option value="${g}" ${p.gender === g ? 'selected' : ''}>${g === 'unspecified' ? 'Not specified' : g}</option>`).join('')}</select></div>
+        <div><label>Interested in</label><select name="seeking">${['everyone', 'women', 'men'].map((g) => `<option value="${g}" ${p.seeking === g ? 'selected' : ''}>${g}</option>`).join('')}</select></div>
+      </div>
+      <details><summary>Paste profile text instead of scraping</summary>
+        <label>Text copied from their LinkedIn</label><textarea name="manualLinkedin">${esc(p.manual?.linkedin || '')}</textarea>
+        <label>Text copied from their Instagram</label><textarea name="manualInstagram">${esc(p.manual?.instagram || '')}</textarea>
+      </details>
+      <p class="muted small">Changing a link re-reads this person and clears their old scores and dates.</p>
+      <div class="row"><button class="btn" type="submit">Save changes</button><button class="btn ghost" type="button" id="removeBtn" style="border-color:var(--red);color:var(--red)">Remove person</button></div>
+    </form></details>`;
+}
+function wireManage(id) {
+  const form = document.getElementById('editForm');
+  if (!form) return;
+  form.onsubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const r = await api(`/api/people/${id}`, { method: 'PATCH', body: Object.fromEntries(new FormData(form)) });
+      toast(r.sourceChanged ? 'Saved. The agent is re-reading them.' : 'Saved.');
+      profilePage(id);
+    } catch (err) { toast(err.message); }
+  };
+  document.getElementById('removeBtn').onclick = async () => {
+    try { await api(`/api/people/${id}`, { method: 'DELETE' }); toast('Removed.'); location.hash = '#/'; } catch (err) { toast(err.message); }
+  };
+}
+
 // ---------------------------------------------------------------- profile
 async function profilePage(id) {
   const { person: p, rankings, dates } = await api(`/api/people/${id}`);
@@ -210,26 +263,46 @@ async function profilePage(id) {
     </div>`;
 
   if (!pr) {
+    const titleFor = (st) => (st === 'error' ? 'Something went wrong' : ['new', 'scraped'].includes(st) ? 'Waiting to start' : st === 'scraping' ? 'Fetching their LinkedIn + Instagram' : 'The agent is reading this person');
     $app.innerHTML = `
       <div class="phead">${avatar(p.avatar, name, 'lg')}<div><div class="eyebrow">Agent at work</div><h1>${esc(name)}</h1>${links}</div></div>
       <div class="card section">
-        <h3>${p.status === 'error' ? 'Something went wrong' : 'The agent is reading this person'}</h3>
-        ${p.status === 'error' ? `<div class="notice err">${esc(p.error)}</div><div class="row" style="margin-top:12px"><button class="btn" id="retry">Retry</button><span class="muted small">Tip: if scraping is blocked, re-add them and paste their profile text manually.</span></div>` : ''}
-        ${['new', 'scraped'].includes(p.status) ? `<div class="row" style="margin-top:4px"><button class="btn wine" id="retry">▶ Start this agent</button><span class="muted small">${p.status === 'scraped' ? 'Profiles are scraped. The agent will read them now.' : 'Scrape both profiles and read them.'}</span></div>` : ''}
-        <div class="reading" id="reading" style="margin-top:12px"><div class="line muted">${['error', 'new', 'scraped'].includes(p.status) ? '' : '<span class="spinner"></span> '}Status: ${esc(statusLabel[p.status])}</div></div>
-      </div>`;
-    const retry = document.getElementById('retry');
-    if (retry) retry.onclick = async () => { await api(`/api/people/${id}/process`, { method: 'POST', body: {} }); toast('Retrying…'); setTimeout(() => profilePage(id), 300); };
+        <h3 id="waitTitle">${titleFor(p.status)}</h3>
+        <div id="errBox">${p.status === 'error' ? `<div class="notice err">${esc(p.error)}</div><p class="muted small" style="margin:8px 0 0">Tip: wrong link or scraping blocked? Use "Edit links" below to fix the URL or paste their profile text.</p>` : ''}</div>
+        <div class="row" id="startRow" style="margin-top:10px"><button class="btn wine" id="retry"></button><span class="muted small" id="startHint"></span></div>
+        <div class="line muted" id="statusLine" style="margin-top:12px"></div>
+        <div class="reading" id="reading" style="margin-top:8px"></div>
+      </div>
+      ${config.adminLocked && !adminToken() ? '' : manageBox(p)}`;
+    wireManage(id);
+    // keep header, button and status in sync with the real status
+    const sync = (st) => {
+      const idle = ['new', 'scraped', 'error'].includes(st);
+      document.getElementById('waitTitle').textContent = titleFor(st);
+      document.getElementById('startRow').classList.toggle('hidden', !idle);
+      document.getElementById('retry').textContent = st === 'error' ? '↻ Retry' : '▶ Start this agent';
+      document.getElementById('startHint').textContent = st === 'scraped' ? 'Profiles are already scraped. The agent will read them now.' : st === 'new' ? 'Scrape both profiles and read them.' : '';
+      document.getElementById('statusLine').innerHTML = `${idle ? '' : '<span class="spinner"></span> '}Status: ${esc(statusLabel[st] || st)}`;
+      if (st !== 'error') document.getElementById('errBox').innerHTML = '';
+    };
+    sync(p.status);
+    if (p.status === 'error' && document.getElementById('manage')) document.getElementById('manage').open = /Instagram|LinkedIn|scrap|private|exist|found/i.test(p.error || '');
+    document.getElementById('retry').onclick = async () => {
+      sync('scraping' === p.status ? 'scraping' : p.raw ? 'analyzing' : 'scraping'); // instant feedback
+      try { await api(`/api/people/${id}/process`, { method: 'POST', body: {} }); } catch (e) { toast(e.message); }
+    };
     cleanup.push(on((ev) => {
       const box = document.getElementById('reading');
       if (!box) return;
       if (ev.type === 'person' && ev.person.id === id) {
-        if (ev.person.status === 'ready' || ev.person.status === 'error') return profilePage(id);
-        box.insertAdjacentHTML('beforeend', `<div class="line muted"><span class="spinner"></span> ${esc(statusLabel[ev.person.status])}</div>`);
+        if (ev.person.status === 'ready') return profilePage(id);
+        if (ev.person.status === 'error') return profilePage(id);
+        sync(ev.person.status);
       }
       if (ev.type === 'log' && ev.msg.includes(p.liSlug)) box.insertAdjacentHTML('beforeend', `<div class="line small">${esc(ev.msg)}</div>`);
       if (ev.type === 'reading' && ev.personId === id) {
-        if (ev.phase === 'start') box.insertAdjacentHTML('beforeend', `<div class="line"><span class="spinner"></span> ${ev.source === 'analyst' ? 'Combining both sources into a profile…' : `Reading their <b>${ev.source === 'linkedin' ? 'LinkedIn' : 'Instagram'}</b>…`}</div>`);
+        if (ev.phase === 'start') box.insertAdjacentHTML('beforeend', `<div class="line" data-src="${ev.source}"><span class="spinner"></span> ${ev.source === 'analyst' ? 'Combining both sources into a profile…' : `Reading their <b>${ev.source === 'linkedin' ? 'LinkedIn' : 'Instagram'}</b>…`}</div>`);
+        if (ev.phase === 'done') box.querySelector(`[data-src="${ev.source}"] .spinner`)?.replaceWith('✓');
         if (ev.phase === 'done') box.insertAdjacentHTML('beforeend', `<div class="line card" style="padding:14px"><div class="chip ${ev.source === 'linkedin' ? 'li' : 'ig'}">${ev.source} notes</div><ul class="notes small">${(ev.notes?.observations || []).map((o) => `<li><b>${esc(o.note)}</b><div class="ev">${esc(o.evidence)}</div></li>`).join('')}</ul></div>`);
       }
     }));
@@ -283,7 +356,7 @@ async function profilePage(id) {
       <details><summary>Raw scraped data (the only two sources the agent used)${p.scrapedAt ? ` · fetched ${esc(new Date(p.scrapedAt).toLocaleString())}` : ''}</summary>
         <div class="grid g2" style="margin-top:12px"><pre class="raw">${esc(JSON.stringify(p.raw?.linkedin, null, 2))}</pre><pre class="raw">${esc(JSON.stringify(p.raw?.instagram, null, 2))}</pre></div>
       </details>
-      ${config.adminLocked && !adminToken() ? '' : `<div class="row" style="margin-top:16px"><button class="btn ghost sm" id="refresh" title="Scrape LinkedIn + Instagram again (bypasses cache). Re-analyses only if the data changed.">↻ Refresh data</button><button class="btn ghost sm" id="reanalyze" title="Run the agent's analysis again on the same data">Re-read profile</button><button class="btn ghost sm" id="del">Remove person</button></div>`}
+      ${config.adminLocked && !adminToken() ? '' : `<div class="row" style="margin-top:16px"><button class="btn ghost sm" id="refresh" title="Scrape LinkedIn + Instagram again (bypasses cache). Re-analyses only if the data changed.">↻ Refresh data</button><button class="btn ghost sm" id="reanalyze" title="Run the agent's analysis again on the same data">Re-read profile</button></div>${manageBox(p)}`}
     </section>`;
 
   $app.querySelectorAll('[data-date-with]').forEach((b) => (b.onclick = async () => {
@@ -294,9 +367,8 @@ async function profilePage(id) {
   if (re) re.onclick = async () => { await api(`/api/people/${id}/process`, { method: 'POST', body: { reanalyze: true } }); toast('Re-reading…'); setTimeout(() => profilePage(id), 400); };
   const rf = document.getElementById('refresh');
   if (rf) rf.onclick = async () => { await api(`/api/people/${id}/process`, { method: 'POST', body: { refresh: true } }); toast('Fetching fresh data…'); setTimeout(() => profilePage(id), 400); };
-  const del = document.getElementById('del');
-  if (del) del.onclick = async () => { try { await api(`/api/people/${id}`, { method: 'DELETE' }); location.hash = '#/'; } catch (e) { toast(e.message); } };
-  cleanup.push(on((ev) => { if ((ev.type === 'date:done' && (ev.date.a === id || ev.date.b === id)) || (ev.type === 'rankings' && ev.personId === id)) profilePage(id); }));
+  wireManage(id);
+  cleanup.push(on((ev) => { if ((['date:done', 'date:start'].includes(ev.type) && (ev.date.a === id || ev.date.b === id)) || (ev.type === 'date:error') || (ev.type === 'rankings' && ev.personId === id)) { const y = window.scrollY; profilePage(id).then(() => window.scrollTo(0, y)); } }));
 }
 
 function rankRow(r, i, selfId) {
@@ -305,10 +377,10 @@ function rankRow(r, i, selfId) {
     <a href="#/p/${r.id}">${avatar(r.avatar, r.name)}</a>
     <div style="min-width:0">
       <div class="row" style="gap:8px"><a href="#/p/${r.id}" style="text-decoration:none"><b>${esc(r.name)}</b></a>
-        ${r.match ? '<span class="chip wine">♥ both want a 2nd date</span>' : ''}${r.dated ? `<span class="chip ok">dated · mutual ${r.mutual}</span>` : '<span class="chip">not dated yet</span>'}</div>
+        ${r.match ? '<span class="chip wine">♥ both want a 2nd date</span>' : ''}${r.dated ? `<span class="chip ok">dated · mutual ${r.mutual}</span>` : r.live ? '<span class="chip warn"><span class="spinner"></span> on a date right now</span>' : '<span class="chip">not dated yet</span>'}</div>
       <div class="muted small">${esc(r.headline || '')}</div>
-      <div class="small" style="margin-top:4px">${r.dated ? `<b>Agent's verdict:</b> ${esc(r.verdict)} <span class="muted">(my agent ${r.myAgentScore} · their agent ${r.theirAgentScore})</span>` : esc(r.compatReason || '')}</div>
-      <div style="margin-top:6px">${r.dated ? `<a class="btn ghost sm" href="#/date/${r.dateId}">Watch the date →</a>` : `<button class="btn ghost sm" data-date-with="${r.id}">Send agents on a date</button>`}</div>
+      <div class="small" style="margin-top:4px">${r.live ? 'Their agents are talking now. The verdict and fit score update when the date ends.' : r.dated ? `<b>Agent's verdict:</b> ${esc(r.verdict)} <span class="muted">(my agent ${r.myAgentScore} · their agent ${r.theirAgentScore})</span>` : esc(r.compatReason || '')}</div>
+      <div style="margin-top:6px">${r.dated ? `<a class="btn ghost sm" href="#/date/${r.dateId}">Watch the date →</a>` : r.live ? `<a class="btn wine sm" href="#/date/${r.dateId}">● Watch live →</a>` : `<button class="btn ghost sm" data-date-with="${r.id}">Send agents on a date</button>`}</div>
     </div>
     <div class="score">${r.score}<small>fit score</small></div>
   </div>`;
@@ -360,7 +432,7 @@ async function datePage(id) {
       if (ev.type === 'date:typing') { chat.querySelector('.typing')?.remove(); chat.insertAdjacentHTML('beforeend', `<div class="typing ${ev.side}"><span class="spinner"></span> ${esc(ev.name)}'s agent is typing…</div>`); }
       if (ev.type === 'date:msg') addMsg(ev.msg);
       if (ev.type === 'date:done') { d = (await api(`/api/dates/${id}`)).date; renderSide(); }
-      if (ev.type === 'date:error') toast('Date failed: ' + ev.error);
+      if (ev.type === 'date:error') { toast(ev.error === 'Stopped by user' ? 'Date stopped.' : 'Date failed: ' + ev.error); chat.querySelector('.typing')?.remove(); }
     }));
   }
 }
@@ -405,7 +477,17 @@ async function howPage() {
 // ---------------------------------------------------------------- boot
 (async () => {
   config = await api('/api/config').catch(() => ({}));
-  try { const s = await api('/api/state'); runState = s.run; renderRunPill(); } catch {}
+  try {
+    const s = await api('/api/state');
+    runState = s.run;
+    s.people.filter((p) => ['scraping', 'analyzing'].includes(p.status)).forEach((p) => busyPeople.add(p.id));
+    s.dates.filter((d) => d.status === 'live').forEach((d) => liveDates.add(d.id));
+    renderRunPill();
+    renderStop();
+  } catch {}
+  document.getElementById('stopBtn').onclick = async () => {
+    try { await api('/api/stop', { method: 'POST' }); toast('All agents stopped. Finished work is kept.'); router(); } catch (e) { toast(e.message); }
+  };
   connect();
   router();
 })();

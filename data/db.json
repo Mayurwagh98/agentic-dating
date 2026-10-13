@@ -12,7 +12,7 @@
         "linkedin": "",
         "instagram": ""
       },
-      "status": "analyzing",
+      "status": "ready",
       "createdAt": "2026-10-13T11:14:27.734Z",
       "raw": {
         "linkedin": {
@@ -158,100 +158,181 @@
         "linkedin": {
           "observations": [
             {
-              "note": "She is deeply immersed in the field of Artificial Intelligence, showing a consistent career trajectory from internships to associate roles.",
+              "note": "Early-career professional deeply immersed in the tech sector, specifically focusing on artificial intelligence and data science.",
               "evidence": "Headline: 'AI & Data Science Graduate | AI Enthusiast | Generative AI 🚀'"
             },
             {
-              "note": "She is likely in the early stages of her professional life, currently completing her undergraduate degree.",
-              "evidence": "Education: 'Angadi Institute of Technology and Management, Bachelor of Engineering, 2021 - 2025'"
+              "note": "Gaining practical industry experience through a progression of roles, including an Associate Engineer position and multiple internships.",
+              "evidence": "Experience section lists roles at RoadMetrics AI, InCruiter, Vstand4U Solutions, and Tequed Labs."
             },
             {
-              "note": "She possesses a technical and analytical mindset, with a focus on building and refining complex data systems.",
-              "evidence": "Experience: 'Working on labeling and tagging data for AI models, checking data for accuracy, reviewing and correcting annotations'"
+              "note": "Possesses a technical skill set spanning machine learning, data handling, and full-stack web development.",
+              "evidence": "Skills include 'Natural Language Processing (NLP)', 'React.js', 'Python (Programming Language)', and 'SQL'."
             },
             {
-              "note": "She is a versatile developer with experience across the full technology stack, not just data science.",
-              "evidence": "Experience: 'Worked on full stack web applications using Java for backend development and React JS for building dynamic frontend interfaces.'"
+              "note": "Educational background is anchored in engineering.",
+              "evidence": "Education entry for 'Angadi Institute of Technology and Management', degree 'Bachelor of Engineering', 2021 - 2025."
             },
             {
-              "note": "She is based in a major Indian tech hub, suggesting a lifestyle centered around a fast-paced urban professional environment.",
-              "location": "Greater Bengaluru Area"
+              "note": "Based in a major technology hub.",
+              "evidence": "Location: 'Greater Bengaluru Area'"
             },
             {
-              "note": "She has a history of steady professional growth and persistence, having held multiple internships and roles during her studies.",
-              "evidence": "Experience: Lists five distinct roles including internships at InCruiter, Vstand4U Solutions, and Tequed Labs."
-            },
-            {
-              "note": "She values practical application and hands-on learning in her field.",
-              "evidence": "Experience: 'Worked on mini-projects involving regression, classification, and clustering using Python and libraries like scikit-learn and pandas.'"
-            },
-            {
-              "note": "She has a growing professional network and is active in the tech community.",
-              "evidence": "Followers: 884"
+              "note": "Has engaged in hands-on technical tasks such as data labeling, model annotation, and building RESTful APIs.",
+              "evidence": "Job descriptions mention 'labeling and tagging data for AI models' and 'building RESTful APIs, form validations, and data handling.'"
             }
           ],
           "keywords": [
-            "AI Enthusiast",
-            "Data Scientist",
-            "Tech-Savvy",
-            "Early Career Professional",
-            "Full Stack Knowledge",
-            "Bengaluru Based",
-            "Analytical"
+            "AI",
+            "Data Science",
+            "Python",
+            "Machine Learning",
+            "Bengaluru",
+            "Engineering",
+            "Web Development"
           ],
           "dataQuality": "moderate",
           "gaps": [
-            "Personal hobbies and interests outside of technology",
-            "Communication style and personality traits",
-            "Social life and leisure activities",
-            "Travel preferences or lifestyle habits",
-            "Specific values or life goals beyond career"
+            "No personal interests, hobbies, or lifestyle details outside of professional work are mentioned.",
+            "No volunteering history, certifications, or specific project descriptions are listed in the provided data."
           ]
         },
         "instagram": {
           "observations": [
             {
-              "note": "The individual has a strong interest in historical narratives and ancient civilizations.",
-              "evidence": "Caption: 'The Prince Who Refused to Flee and Built the Inca Empire'"
+              "note": "Publishes video content focused on history, specifically referencing topics like the Inca Empire and Machu Picchu.",
+              "evidence": "Caption: 'The Prince Who Refused to Flee and Built the Inca Empire he stayed. #history #inca #machupicchu #historyfacts'"
             },
             {
-              "note": "They are fascinated by stories of leadership, resilience, and historical figures who 'stayed' during crises.",
-              "evidence": "Caption: 'he stayed. #history #inca #machupicchu #historyfacts'"
+              "note": "The Instagram account appears to be a thematic or brand page named 'OurVideos' rather than a personal profile, with zero followers and zero following.",
+              "evidence": "Username: 'ouraivideos', Name: 'OurVideos', followers: 0, following: 0"
             },
             {
-              "note": "The profile is focused on educational or storytelling content rather than personal life.",
-              "evidence": "The username is 'ouraivideos' and all 4 posts are videos related to history or commanding figures."
-            },
-            {
-              "note": "They value themes of authority and command in historical contexts.",
-              "evidence": "Caption: 'HE COMMANDED'"
-            },
-            {
-              "note": "The account appears to be a niche content creator or curator rather than a personal social profile.",
-              "evidence": "Username 'ouraivideos', 0 followers, 0 following, and content focused exclusively on history facts."
-            },
-            {
-              "note": "They utilize specific historical locations and landmarks to anchor their content.",
-              "evidence": "Hashtags: #machupicchu and #inca"
+              "note": "Evidence is very thin regarding personal identity, hobbies, career, or daily life outside of posting historical video snippets.",
+              "evidence": "Bio is completely empty and post count is only 4."
             }
           ],
           "keywords": [
-            "History Enthusiast",
-            "Content Creator",
-            "Storyteller",
-            "Inca History",
-            "Educational Content",
-            "Leadership Themes"
+            "history",
+            "video creator",
+            "inca",
+            "content",
+            "historical facts"
           ],
           "dataQuality": "thin",
           "gaps": [
-            "No personal information (hobbies, lifestyle, values outside of history)",
-            "No professional background or LinkedIn data provided",
-            "No indication of social circle or interpersonal style",
-            "No geographic location or daily routine details"
+            "No personal background, profession, location, hobbies, or individual identity can be determined from this profile as it appears to be a content page."
           ]
         }
-      }
+      },
+      "profile": {
+        "name": "Radhika Bhangi",
+        "headline": "AI & Data Science Graduate and Tech Enthusiast",
+        "location": "Greater Bengaluru Area",
+        "oneLiner": "Radhika is an ambitious tech graduate who balances her career in artificial intelligence with a genuine fascination for historical content creation.",
+        "summary": "Radhika is an early-career professional deeply immersed in the world of artificial intelligence, data science, and web development. Her professional background reflects dedication and a hands-on approach to engineering and technology. Outside of her core career pursuits, she engages in digital content creation focused on history. As a partner, she brings a blend of analytical rigor and creative curiosity.",
+        "needs": [
+          {
+            "need": "Intellectual engagement and curiosity",
+            "why": "Her professional focus on AI and her side engagement with historical content like the Inca Empire suggest she appreciates deep topics and continuous learning.",
+            "source": "both"
+          },
+          {
+            "need": "Understanding of a tech-focused schedule",
+            "why": "Her career progression across multiple engineering roles and internships indicates a driven professional life.",
+            "source": "linkedin"
+          },
+          {
+            "need": "Appreciation for creative digital projects",
+            "why": "She actively curates and publishes video content centered around historical facts and civilizations.",
+            "source": "instagram"
+          }
+        ],
+        "hobbies": [
+          {
+            "name": "Historical content creation",
+            "evidence": "Publishes video content featuring historical topics such as the Inca Empire and Machu Picchu.",
+            "source": "instagram"
+          }
+        ],
+        "interests": [
+          {
+            "name": "Artificial Intelligence and Data Science",
+            "evidence": "Headline states 'AI & Data Science Graduate | AI Enthusiast | Generative AI 🚀'.",
+            "source": "linkedin"
+          },
+          {
+            "name": "World History",
+            "evidence": "Instagram posts include captions referencing '#history #inca #machupicchu'.",
+            "source": "instagram"
+          },
+          {
+            "name": "Full-stack web development",
+            "evidence": "Skills list includes React.js, SQL, and building RESTful APIs.",
+            "source": "linkedin"
+          }
+        ],
+        "values": [
+          {
+            "name": "Professional dedication",
+            "evidence": "Maintains an active career trajectory with multiple roles and internships at companies like RoadMetrics AI and InCruiter."
+          },
+          {
+            "name": "Curiosity and learning",
+            "evidence": "Explores complex technical fields like Natural Language Processing alongside historical research for video creation."
+          }
+        ],
+        "personality": [
+          {
+            "trait": "Ambitious",
+            "evidence": "Recently graduated with a Bachelor of Engineering and has already accumulated diverse experience through multiple technical internships and roles."
+          },
+          {
+            "trait": "Inquisitive",
+            "evidence": "Researches and shares specific historical narratives like the Inca Empire on digital platforms."
+          }
+        ],
+        "vibe": {
+          "adventurous": 50,
+          "social": 50,
+          "ambitious": 85,
+          "spontaneous": 50,
+          "creative": 75
+        },
+        "lifestyle": {
+          "work": "Works in the tech sector focusing on AI, data science, and software engineering roles.",
+          "weekends": "Evidence is thin, but involves digital content creation around historical topics.",
+          "travel": "Evidence is thin, though historical posts suggest an interest in ancient global sites like Machu Picchu.",
+          "fitness": "No signal available in the provided data."
+        },
+        "communicationStyle": "Direct and structured regarding technical domains, paired with a storytelling approach for historical content.",
+        "greenFlags": [
+          "Demonstrates strong drive and career focus as a recent engineering graduate",
+          "Engages in creative pursuits like digital history storytelling outside of standard work"
+        ],
+        "frictions": [
+          "May have limited free time due to a demanding tech career and content creation",
+          "Data is thin on personal lifestyle preferences outside of work and history"
+        ],
+        "idealMatch": "Someone who shares an appreciation for technology, continuous learning, and deep historical or intellectual discussions.",
+        "dateIdeas": [
+          "Visiting a museum or historical exhibition",
+          "Working on a casual coding or tech side project together at a quiet café",
+          "Visiting a tech-themed meetup or innovation hub in Bengaluru"
+        ],
+        "conversationStarters": [
+          "What initially sparked your deep dive into AI and Generative AI?",
+          "How did you get started with creating your historical video content?",
+          "What is the most interesting historical fact you've uncovered recently?"
+        ],
+        "confidence": 60,
+        "dataGaps": [
+          "No personal interests, hobbies, or lifestyle details outside of professional work and history content creation are mentioned.",
+          "No volunteering history, fitness habits, or travel preferences are provided."
+        ]
+      },
+      "analyzedAt": "2026-10-13T11:35:27.522Z",
+      "rawHash": "d172a22b4b32eb67"
     },
     {
       "id": "p_1359d1cdc0",
@@ -265,7 +346,7 @@
         "linkedin": "",
         "instagram": ""
       },
-      "status": "analyzing",
+      "status": "ready",
       "createdAt": "2026-10-13T11:14:48.397Z",
       "raw": {
         "linkedin": {
@@ -588,11 +669,300 @@
       "scrapeWarnings": [],
       "avatar": "https://scontent-dus1-1.cdninstagram.com/v/t51.2885-19/23417034_143491842944018_4716131565707460608_n.jpg?_nc_cat=1&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy45NjAuQzMifQ%3D%3D&_nc_ohc=Za8yOOMptU8Q7kNvwETJN40&_nc_oc=Adojh8OCb-6MIMUtCB_5CMvBGHAkCNU03wNkWtMkuCrzq9GKI-B4V1MMWP7MJRLfC1c&_nc_zt=24&_nc_ht=scontent-dus1-1.cdninstagram.com&_nc_ss=70a8c&oh=00_AQPsQWpDG6IKviJW9Th9d3H5_o33eh15Ef19Xz5miZzpCQ&oe=6AD3DA80",
       "avatarFile": "/avatars/p_1359d1cdc0.jpg",
-      "scrapedAt": "2026-10-13T11:14:49.890Z"
+      "scrapedAt": "2026-10-13T11:14:49.890Z",
+      "notes": {
+        "linkedin": {
+          "observations": [
+            {
+              "note": "Pragmatic and direct communication style, focused on tangible outcomes rather than jargon.",
+              "evidence": "I care about results, not buzzwords. Whether it’s optimizing an app, fixing stubborn bugs, or collaborating with a team, I get it done."
+            },
+            {
+              "note": "Professional background is rooted in full-stack software development with a focus on modern web technologies.",
+              "evidence": "Software Developer | Full-Stack Development | Python | AI/ML | Data Science | SQL"
+            },
+            {
+              "note": "Experienced in early-stage and startup environments, having held a founding engineer role.",
+              "evidence": "(Founding Engineer) MERN Stack Developer at OpenIntervue"
+            },
+            {
+              "note": "Demonstrates a commitment to mentorship and peer support from past instructional roles.",
+              "evidence": "I helped students by providing them mental and emotional support. Along with giving them mental and emotional support, I also helped them to clear their doubts regarding coding."
+            },
+            {
+              "note": "Engages in continuous technical tinkering and side projects outside of formal employment.",
+              "evidence": "Outside of work, I’m probably tinkering with a new project or learning something to stay sharp."
+            },
+            {
+              "note": "Educational background includes a degree in engineering.",
+              "evidence": "Savitribai Phule Pune University, Bachelor of Engineering - BE"
+            }
+          ],
+          "keywords": [
+            "Software Developer",
+            "Full-Stack",
+            "Problem Solver",
+            "Mentor",
+            "Builder",
+            "Tech"
+          ],
+          "dataQuality": "moderate",
+          "gaps": [
+            "Personal hobbies outside of coding",
+            "Values in a relationship",
+            "Lifestyle preferences",
+            "Travel or leisure interests"
+          ]
+        },
+        "instagram": {
+          "observations": [
+            {
+              "note": "Runs a platform dedicated to discovering global opportunities for youth, focusing heavily on education and career advancement.",
+              "evidence": "bio: 'Leading opportunities discovering platform for youth globally 🌍✈️🎓'"
+            },
+            {
+              "note": "Frequently shares information regarding international academic scholarships, such as the Erasmus Mundus Scholarship.",
+              "evidence": "caption: 'Planning to apply for the Erasmus Mundus Scholarship? Join our Free Online Erasmus Mundus Scholarship Session...'"
+            },
+            {
+              "note": "Highlights global internship programs, including opportunities in Austria and the USA.",
+              "evidence": "caption: 'Salzburg Global Communications Internship 2027 in Austria | Funded'"
+            },
+            {
+              "note": "Promotes research fellowships and student exchange programs across various countries like China, Canada, and Russia.",
+              "evidence": "caption: 'USTC Winter Camp in China 2026'"
+            },
+            {
+              "note": "Provides resources for online learning and professional skill development through courses from institutions like Harvard.",
+              "evidence": "caption: 'Harvard University is offering fully funded online courses that you can join from anywhere in the world...'"
+            },
+            {
+              "note": "Facilitates online informational sessions and workshops to guide students through application processes.",
+              "evidence": "caption: 'Join our Free Online Erasmus Mundus Scholarship Session and get practical guidance to strengthen your application.'"
+            }
+          ],
+          "keywords": [
+            "education",
+            "scholarships",
+            "internships",
+            "global opportunities",
+            "youth development",
+            "career growth",
+            "academic programs"
+          ],
+          "dataQuality": "moderate",
+          "gaps": [
+            "Does not reveal personal identity, individual background, or personal interests outside of managing an educational platform."
+          ]
+        }
+      },
+      "profile": {
+        "name": "Mayur Wagh",
+        "headline": "Software Developer and Global Opportunities Curator",
+        "location": "Bengaluru, Karnataka, India",
+        "oneLiner": "Mayur is a pragmatic software developer and global youth mentor who loves building things, solving complex problems, and helping others succeed.",
+        "summary": "Mayur is a driven professional whose work bridges technical software engineering and global educational empowerment. As a full-stack developer and founding engineer, he values tangible results, continuous learning, and practical problem-solving. Through his platform work, he demonstrates a deep dedication to guiding youth toward international academic and career growth. As a partner, he brings a supportive, mentorship-oriented mindset paired with a strong work ethic.",
+        "needs": [
+          {
+            "need": "Appreciation for ambition and career dedication",
+            "why": "He invests significant energy into software development and running a global opportunities platform.",
+            "source": "both"
+          },
+          {
+            "need": "Shared passion for continuous learning",
+            "why": "He constantly tinkers with new projects, learns to stay sharp, and promotes educational growth.",
+            "source": "both"
+          },
+          {
+            "need": "Patience for focused work periods",
+            "why": "His background as a software developer and startup founding engineer requires deep focus and technical tinkering.",
+            "source": "linkedin"
+          }
+        ],
+        "hobbies": [
+          {
+            "name": "Technical tinkering and side projects",
+            "evidence": "Outside of work, I’m probably tinkering with a new project or learning something to stay sharp.",
+            "source": "linkedin"
+          }
+        ],
+        "interests": [
+          {
+            "name": "Global education and scholarships",
+            "evidence": "Planning to apply for the Erasmus Mundus Scholarship? Join our Free Online Erasmus Mundus Scholarship Session...",
+            "source": "instagram"
+          },
+          {
+            "name": "International internships and career development",
+            "evidence": "Salzburg Global Communications Internship 2027 in Austria | Funded",
+            "source": "instagram"
+          }
+        ],
+        "values": [
+          {
+            "name": "Mentorship and support",
+            "evidence": "I helped students by providing them mental and emotional support. Along with giving them mental and emotional support, I also helped them to clear their doubts regarding coding."
+          },
+          {
+            "name": "Pragmatism and directness",
+            "evidence": "I care about results, not buzzwords. Whether it’s optimizing an app, fixing stubborn bugs, or collaborating with a team, I get it done."
+          }
+        ],
+        "personality": [
+          {
+            "trait": "Pragmatic",
+            "evidence": "I care about results, not buzzwords. Whether it’s optimizing an app, fixing stubborn bugs, or collaborating with a team, I get it done."
+          },
+          {
+            "trait": "Supportive mentor",
+            "evidence": "I helped students by providing them mental and emotional support. Along with giving them mental and emotional support, I also helped them to clear their doubts regarding coding."
+          }
+        ],
+        "vibe": {
+          "adventurous": 60,
+          "social": 60,
+          "ambitious": 85,
+          "spontaneous": 50,
+          "creative": 70
+        },
+        "lifestyle": {
+          "work": "Engaged in full-stack software development, startup environments, and managing a global opportunities platform for youth.",
+          "weekends": "Likely spent tinkering with new projects, learning new skills, or staying sharp technically.",
+          "travel": "Connected to global international academic programs, exchanges, and funded internships worldwide.",
+          "fitness": "Data is thin; no specific fitness habits are mentioned in the sources."
+        },
+        "communicationStyle": "Pragmatic, direct, and supportive, focused on tangible outcomes rather than jargon.",
+        "greenFlags": [
+          "Demonstrates genuine care for mentoring and supporting others emotionally and practically.",
+          "Values direct communication and tangible results over empty buzzwords.",
+          "Committed to continuous self-improvement and technical tinkering."
+        ],
+        "frictions": [
+          "Might be heavily occupied with coding projects and running a global platform.",
+          "Prefers direct, outcome-oriented communication which might feel too blunt to some."
+        ],
+        "idealMatch": "Someone who is equally driven, appreciates intellectual or technical curiosity, and values a supportive, goal-oriented partnership.",
+        "dateIdeas": [
+          "Visiting a tech meetup or a collaborative coding workshop",
+          "A casual coffee chat discussing travel dreams and international experiences",
+          "Brainstorming side projects over a relaxed dinner"
+        ],
+        "conversationStarters": [
+          "What is the most interesting side project you've tinkered with lately?",
+          "If you could secure a fully funded fellowship anywhere in the world tomorrow, where would you go?",
+          "What's your go-to method for debugging a frustrating problem?"
+        ],
+        "confidence": 75,
+        "dataGaps": [
+          "Personal hobbies outside of coding and platform management",
+          "Specific lifestyle and fitness preferences",
+          "Relationship values and personal relationship history"
+        ]
+      },
+      "analyzedAt": "2026-10-13T11:35:32.026Z",
+      "rawHash": "02fe989f71ad3390"
     }
   ],
-  "dates": [],
-  "compat": {},
+  "dates": [
+    {
+      "id": "d_0b9d0a59eb",
+      "a": "p_1359d1cdc0",
+      "b": "p_07b490ad55",
+      "status": "done",
+      "turns": [
+        {
+          "side": "a",
+          "personId": "p_1359d1cdc0",
+          "name": "Mayur Wagh",
+          "text": "It's so great to meet you, Radhika! Since we're both in the tech space and I love tinkering with side projects, maybe we could grab some coffee soon and swap stories about building things—I'd also love to hear more about your historical content creation.",
+          "thought": "Her background in AI and creative digital projects feels like a really strong intellectual match for Mayur's technical and platform-building focus."
+        },
+        {
+          "side": "b",
+          "personId": "p_07b490ad55",
+          "name": "Radhika Bhangi",
+          "text": "I would love that, especially since swapping stories about building things sounds like a fun way to spend an afternoon. Besides tech, I spend quite a bit of my free time diving into ancient history and making videos about it, so I am always curious what kind of side projects you have been tinkering with lately.",
+          "thought": "Mayur's focus on tech and mentoring aligns well with Radhika's driven background, making this a promising match so far."
+        },
+        {
+          "side": "a",
+          "personId": "p_1359d1cdc0",
+          "name": "Mayur Wagh",
+          "text": "Ancient history content creation sounds fascinating and such a cool creative outlet away from screens. Lately I've been deep into building out tools for my global opportunities platform, but I'd love to know what era of history you find yourself getting lost in the most.",
+          "thought": "Radhika's blend of AI and creative history videos matches Mayur's tech background and appreciation for ambition, making this a promising intellectual connection."
+        },
+        {
+          "side": "b",
+          "personId": "p_07b490ad55",
+          "name": "Radhika Bhangi",
+          "text": "I completely get the pull of building tools, and lately I have found myself entirely absorbed in ancient civilizations like the Incas. It's funny how demanding tech schedules and side projects take up so much of our time, but working on things we are genuinely ambitious about makes it totally worth it.",
+          "thought": "Mayur's focus on building tools and mentoring aligns well with Radhika's ambitious tech career and need for someone who understands a busy schedule."
+        },
+        {
+          "side": "a",
+          "personId": "p_1359d1cdc0",
+          "name": "Mayur Wagh",
+          "text": "The Incas are such an incredible civilization to dive into, and I totally agree that the hustle is worth it when you genuinely care about what you're building. Honestly, meeting someone who balances intense tech work with such a unique creative passion is pretty refreshing.",
+          "thought": "Radhika's blend of tech ambition and historical creativity makes her a genuinely strong intellectual match for Mayur's driven, project-focused lifestyle."
+        },
+        {
+          "side": "b",
+          "personId": "p_07b490ad55",
+          "name": "Radhika Bhangi",
+          "text": "I've really enjoyed chatting about our tech projects and ancient history today, and since you're just as driven about building things as I am, I'd definitely be up for a second date to keep this conversation going.",
+          "thought": "Mayur's focus on building platforms and appreciation for ambition matches Radhika's driven tech and creative lifestyle well, making him a strong candidate for a second date."
+        }
+      ],
+      "startedAt": "2026-10-13T11:35:33.257Z",
+      "debrief": {
+        "a": {
+          "score": 88,
+          "chemistry": 90,
+          "needsMet": 90,
+          "lifestyleFit": 85,
+          "valuesFit": 85,
+          "greenFlags": [
+            "Both deeply understand and respect heavy tech schedules and side hustle dedication",
+            "Great conversational balance between Mayur's global platform work and Radhika's historical content creation",
+            "Immediate mutual enthusiasm for a second date"
+          ],
+          "redFlags": [
+            "Both have demanding tech-focused lives that might require intentional scheduling to avoid burnout"
+          ],
+          "secondDate": true,
+          "verdict": "An exceptional, intellectually stimulating match with rare cross-disciplinary chemistry.",
+          "reportToPerson": "Mayur, Radhika is an absolute catch who completely gets your tech grind and respects your side projects while bringing her own fascinating creative lens with ancient history. You both clicked instantly over the balance of ambition and building, so definitely lock in that second date."
+        },
+        "b": {
+          "score": 88,
+          "chemistry": 90,
+          "needsMet": 90,
+          "lifestyleFit": 85,
+          "valuesFit": 88,
+          "greenFlags": [
+            "Shared deep appreciation for ambitious tech careers and side projects",
+            "Mayur actively showed genuine interest in her Inca history content creation",
+            "Mutual understanding of demanding schedules and tech-driven lifestyles"
+          ],
+          "redFlags": [],
+          "secondDate": true,
+          "verdict": "An exceptional intellectual and professional match with instant chemistry over tech and history.",
+          "reportToPerson": "Radhika, Mayur is an absolute catch who not only understands the demanding tech hustle but was genuinely fascinated by your Inca history content. You both share a deep drive for building things and continuous learning, making him a rare, exceptional fit for a second date."
+        }
+      },
+      "mutual": 88,
+      "match": true,
+      "endedAt": "2026-10-13T11:35:42.993Z"
+    }
+  ],
+  "compat": {
+    "p_1359d1cdc0": {
+      "p_07b490ad55": {
+        "score": 88,
+        "reason": "Radhika shares Mayur's tech background and ambition, while bringing a creative spark that complements his pragmatic, mentoring nature."
+      }
+    }
+  },
   "cache": {
     "linkedin": {
       "mayur--wagh": {
@@ -1540,6 +1910,378 @@
             "Social life and frequency of outings",
             "Personal lifestyle preferences (diet, pets, daily routine)",
             "Direct personal photos (Instagram is content-only)"
+          ]
+        }
+      },
+      "d172a22b4b32eb67": {
+        "at": "2026-10-13T11:35:27.522Z",
+        "notes": {
+          "linkedin": {
+            "observations": [
+              {
+                "note": "Early-career professional deeply immersed in the tech sector, specifically focusing on artificial intelligence and data science.",
+                "evidence": "Headline: 'AI & Data Science Graduate | AI Enthusiast | Generative AI 🚀'"
+              },
+              {
+                "note": "Gaining practical industry experience through a progression of roles, including an Associate Engineer position and multiple internships.",
+                "evidence": "Experience section lists roles at RoadMetrics AI, InCruiter, Vstand4U Solutions, and Tequed Labs."
+              },
+              {
+                "note": "Possesses a technical skill set spanning machine learning, data handling, and full-stack web development.",
+                "evidence": "Skills include 'Natural Language Processing (NLP)', 'React.js', 'Python (Programming Language)', and 'SQL'."
+              },
+              {
+                "note": "Educational background is anchored in engineering.",
+                "evidence": "Education entry for 'Angadi Institute of Technology and Management', degree 'Bachelor of Engineering', 2021 - 2025."
+              },
+              {
+                "note": "Based in a major technology hub.",
+                "evidence": "Location: 'Greater Bengaluru Area'"
+              },
+              {
+                "note": "Has engaged in hands-on technical tasks such as data labeling, model annotation, and building RESTful APIs.",
+                "evidence": "Job descriptions mention 'labeling and tagging data for AI models' and 'building RESTful APIs, form validations, and data handling.'"
+              }
+            ],
+            "keywords": [
+              "AI",
+              "Data Science",
+              "Python",
+              "Machine Learning",
+              "Bengaluru",
+              "Engineering",
+              "Web Development"
+            ],
+            "dataQuality": "moderate",
+            "gaps": [
+              "No personal interests, hobbies, or lifestyle details outside of professional work are mentioned.",
+              "No volunteering history, certifications, or specific project descriptions are listed in the provided data."
+            ]
+          },
+          "instagram": {
+            "observations": [
+              {
+                "note": "Publishes video content focused on history, specifically referencing topics like the Inca Empire and Machu Picchu.",
+                "evidence": "Caption: 'The Prince Who Refused to Flee and Built the Inca Empire he stayed. #history #inca #machupicchu #historyfacts'"
+              },
+              {
+                "note": "The Instagram account appears to be a thematic or brand page named 'OurVideos' rather than a personal profile, with zero followers and zero following.",
+                "evidence": "Username: 'ouraivideos', Name: 'OurVideos', followers: 0, following: 0"
+              },
+              {
+                "note": "Evidence is very thin regarding personal identity, hobbies, career, or daily life outside of posting historical video snippets.",
+                "evidence": "Bio is completely empty and post count is only 4."
+              }
+            ],
+            "keywords": [
+              "history",
+              "video creator",
+              "inca",
+              "content",
+              "historical facts"
+            ],
+            "dataQuality": "thin",
+            "gaps": [
+              "No personal background, profession, location, hobbies, or individual identity can be determined from this profile as it appears to be a content page."
+            ]
+          }
+        },
+        "profile": {
+          "name": "Radhika Bhangi",
+          "headline": "AI & Data Science Graduate and Tech Enthusiast",
+          "location": "Greater Bengaluru Area",
+          "oneLiner": "Radhika is an ambitious tech graduate who balances her career in artificial intelligence with a genuine fascination for historical content creation.",
+          "summary": "Radhika is an early-career professional deeply immersed in the world of artificial intelligence, data science, and web development. Her professional background reflects dedication and a hands-on approach to engineering and technology. Outside of her core career pursuits, she engages in digital content creation focused on history. As a partner, she brings a blend of analytical rigor and creative curiosity.",
+          "needs": [
+            {
+              "need": "Intellectual engagement and curiosity",
+              "why": "Her professional focus on AI and her side engagement with historical content like the Inca Empire suggest she appreciates deep topics and continuous learning.",
+              "source": "both"
+            },
+            {
+              "need": "Understanding of a tech-focused schedule",
+              "why": "Her career progression across multiple engineering roles and internships indicates a driven professional life.",
+              "source": "linkedin"
+            },
+            {
+              "need": "Appreciation for creative digital projects",
+              "why": "She actively curates and publishes video content centered around historical facts and civilizations.",
+              "source": "instagram"
+            }
+          ],
+          "hobbies": [
+            {
+              "name": "Historical content creation",
+              "evidence": "Publishes video content featuring historical topics such as the Inca Empire and Machu Picchu.",
+              "source": "instagram"
+            }
+          ],
+          "interests": [
+            {
+              "name": "Artificial Intelligence and Data Science",
+              "evidence": "Headline states 'AI & Data Science Graduate | AI Enthusiast | Generative AI 🚀'.",
+              "source": "linkedin"
+            },
+            {
+              "name": "World History",
+              "evidence": "Instagram posts include captions referencing '#history #inca #machupicchu'.",
+              "source": "instagram"
+            },
+            {
+              "name": "Full-stack web development",
+              "evidence": "Skills list includes React.js, SQL, and building RESTful APIs.",
+              "source": "linkedin"
+            }
+          ],
+          "values": [
+            {
+              "name": "Professional dedication",
+              "evidence": "Maintains an active career trajectory with multiple roles and internships at companies like RoadMetrics AI and InCruiter."
+            },
+            {
+              "name": "Curiosity and learning",
+              "evidence": "Explores complex technical fields like Natural Language Processing alongside historical research for video creation."
+            }
+          ],
+          "personality": [
+            {
+              "trait": "Ambitious",
+              "evidence": "Recently graduated with a Bachelor of Engineering and has already accumulated diverse experience through multiple technical internships and roles."
+            },
+            {
+              "trait": "Inquisitive",
+              "evidence": "Researches and shares specific historical narratives like the Inca Empire on digital platforms."
+            }
+          ],
+          "vibe": {
+            "adventurous": 50,
+            "social": 50,
+            "ambitious": 85,
+            "spontaneous": 50,
+            "creative": 75
+          },
+          "lifestyle": {
+            "work": "Works in the tech sector focusing on AI, data science, and software engineering roles.",
+            "weekends": "Evidence is thin, but involves digital content creation around historical topics.",
+            "travel": "Evidence is thin, though historical posts suggest an interest in ancient global sites like Machu Picchu.",
+            "fitness": "No signal available in the provided data."
+          },
+          "communicationStyle": "Direct and structured regarding technical domains, paired with a storytelling approach for historical content.",
+          "greenFlags": [
+            "Demonstrates strong drive and career focus as a recent engineering graduate",
+            "Engages in creative pursuits like digital history storytelling outside of standard work"
+          ],
+          "frictions": [
+            "May have limited free time due to a demanding tech career and content creation",
+            "Data is thin on personal lifestyle preferences outside of work and history"
+          ],
+          "idealMatch": "Someone who shares an appreciation for technology, continuous learning, and deep historical or intellectual discussions.",
+          "dateIdeas": [
+            "Visiting a museum or historical exhibition",
+            "Working on a casual coding or tech side project together at a quiet café",
+            "Visiting a tech-themed meetup or innovation hub in Bengaluru"
+          ],
+          "conversationStarters": [
+            "What initially sparked your deep dive into AI and Generative AI?",
+            "How did you get started with creating your historical video content?",
+            "What is the most interesting historical fact you've uncovered recently?"
+          ],
+          "confidence": 60,
+          "dataGaps": [
+            "No personal interests, hobbies, or lifestyle details outside of professional work and history content creation are mentioned.",
+            "No volunteering history, fitness habits, or travel preferences are provided."
+          ]
+        }
+      },
+      "02fe989f71ad3390": {
+        "at": "2026-10-13T11:35:32.026Z",
+        "notes": {
+          "linkedin": {
+            "observations": [
+              {
+                "note": "Pragmatic and direct communication style, focused on tangible outcomes rather than jargon.",
+                "evidence": "I care about results, not buzzwords. Whether it’s optimizing an app, fixing stubborn bugs, or collaborating with a team, I get it done."
+              },
+              {
+                "note": "Professional background is rooted in full-stack software development with a focus on modern web technologies.",
+                "evidence": "Software Developer | Full-Stack Development | Python | AI/ML | Data Science | SQL"
+              },
+              {
+                "note": "Experienced in early-stage and startup environments, having held a founding engineer role.",
+                "evidence": "(Founding Engineer) MERN Stack Developer at OpenIntervue"
+              },
+              {
+                "note": "Demonstrates a commitment to mentorship and peer support from past instructional roles.",
+                "evidence": "I helped students by providing them mental and emotional support. Along with giving them mental and emotional support, I also helped them to clear their doubts regarding coding."
+              },
+              {
+                "note": "Engages in continuous technical tinkering and side projects outside of formal employment.",
+                "evidence": "Outside of work, I’m probably tinkering with a new project or learning something to stay sharp."
+              },
+              {
+                "note": "Educational background includes a degree in engineering.",
+                "evidence": "Savitribai Phule Pune University, Bachelor of Engineering - BE"
+              }
+            ],
+            "keywords": [
+              "Software Developer",
+              "Full-Stack",
+              "Problem Solver",
+              "Mentor",
+              "Builder",
+              "Tech"
+            ],
+            "dataQuality": "moderate",
+            "gaps": [
+              "Personal hobbies outside of coding",
+              "Values in a relationship",
+              "Lifestyle preferences",
+              "Travel or leisure interests"
+            ]
+          },
+          "instagram": {
+            "observations": [
+              {
+                "note": "Runs a platform dedicated to discovering global opportunities for youth, focusing heavily on education and career advancement.",
+                "evidence": "bio: 'Leading opportunities discovering platform for youth globally 🌍✈️🎓'"
+              },
+              {
+                "note": "Frequently shares information regarding international academic scholarships, such as the Erasmus Mundus Scholarship.",
+                "evidence": "caption: 'Planning to apply for the Erasmus Mundus Scholarship? Join our Free Online Erasmus Mundus Scholarship Session...'"
+              },
+              {
+                "note": "Highlights global internship programs, including opportunities in Austria and the USA.",
+                "evidence": "caption: 'Salzburg Global Communications Internship 2027 in Austria | Funded'"
+              },
+              {
+                "note": "Promotes research fellowships and student exchange programs across various countries like China, Canada, and Russia.",
+                "evidence": "caption: 'USTC Winter Camp in China 2026'"
+              },
+              {
+                "note": "Provides resources for online learning and professional skill development through courses from institutions like Harvard.",
+                "evidence": "caption: 'Harvard University is offering fully funded online courses that you can join from anywhere in the world...'"
+              },
+              {
+                "note": "Facilitates online informational sessions and workshops to guide students through application processes.",
+                "evidence": "caption: 'Join our Free Online Erasmus Mundus Scholarship Session and get practical guidance to strengthen your application.'"
+              }
+            ],
+            "keywords": [
+              "education",
+              "scholarships",
+              "internships",
+              "global opportunities",
+              "youth development",
+              "career growth",
+              "academic programs"
+            ],
+            "dataQuality": "moderate",
+            "gaps": [
+              "Does not reveal personal identity, individual background, or personal interests outside of managing an educational platform."
+            ]
+          }
+        },
+        "profile": {
+          "name": "Mayur Wagh",
+          "headline": "Software Developer and Global Opportunities Curator",
+          "location": "Bengaluru, Karnataka, India",
+          "oneLiner": "Mayur is a pragmatic software developer and global youth mentor who loves building things, solving complex problems, and helping others succeed.",
+          "summary": "Mayur is a driven professional whose work bridges technical software engineering and global educational empowerment. As a full-stack developer and founding engineer, he values tangible results, continuous learning, and practical problem-solving. Through his platform work, he demonstrates a deep dedication to guiding youth toward international academic and career growth. As a partner, he brings a supportive, mentorship-oriented mindset paired with a strong work ethic.",
+          "needs": [
+            {
+              "need": "Appreciation for ambition and career dedication",
+              "why": "He invests significant energy into software development and running a global opportunities platform.",
+              "source": "both"
+            },
+            {
+              "need": "Shared passion for continuous learning",
+              "why": "He constantly tinkers with new projects, learns to stay sharp, and promotes educational growth.",
+              "source": "both"
+            },
+            {
+              "need": "Patience for focused work periods",
+              "why": "His background as a software developer and startup founding engineer requires deep focus and technical tinkering.",
+              "source": "linkedin"
+            }
+          ],
+          "hobbies": [
+            {
+              "name": "Technical tinkering and side projects",
+              "evidence": "Outside of work, I’m probably tinkering with a new project or learning something to stay sharp.",
+              "source": "linkedin"
+            }
+          ],
+          "interests": [
+            {
+              "name": "Global education and scholarships",
+              "evidence": "Planning to apply for the Erasmus Mundus Scholarship? Join our Free Online Erasmus Mundus Scholarship Session...",
+              "source": "instagram"
+            },
+            {
+              "name": "International internships and career development",
+              "evidence": "Salzburg Global Communications Internship 2027 in Austria | Funded",
+              "source": "instagram"
+            }
+          ],
+          "values": [
+            {
+              "name": "Mentorship and support",
+              "evidence": "I helped students by providing them mental and emotional support. Along with giving them mental and emotional support, I also helped them to clear their doubts regarding coding."
+            },
+            {
+              "name": "Pragmatism and directness",
+              "evidence": "I care about results, not buzzwords. Whether it’s optimizing an app, fixing stubborn bugs, or collaborating with a team, I get it done."
+            }
+          ],
+          "personality": [
+            {
+              "trait": "Pragmatic",
+              "evidence": "I care about results, not buzzwords. Whether it’s optimizing an app, fixing stubborn bugs, or collaborating with a team, I get it done."
+            },
+            {
+              "trait": "Supportive mentor",
+              "evidence": "I helped students by providing them mental and emotional support. Along with giving them mental and emotional support, I also helped them to clear their doubts regarding coding."
+            }
+          ],
+          "vibe": {
+            "adventurous": 60,
+            "social": 60,
+            "ambitious": 85,
+            "spontaneous": 50,
+            "creative": 70
+          },
+          "lifestyle": {
+            "work": "Engaged in full-stack software development, startup environments, and managing a global opportunities platform for youth.",
+            "weekends": "Likely spent tinkering with new projects, learning new skills, or staying sharp technically.",
+            "travel": "Connected to global international academic programs, exchanges, and funded internships worldwide.",
+            "fitness": "Data is thin; no specific fitness habits are mentioned in the sources."
+          },
+          "communicationStyle": "Pragmatic, direct, and supportive, focused on tangible outcomes rather than jargon.",
+          "greenFlags": [
+            "Demonstrates genuine care for mentoring and supporting others emotionally and practically.",
+            "Values direct communication and tangible results over empty buzzwords.",
+            "Committed to continuous self-improvement and technical tinkering."
+          ],
+          "frictions": [
+            "Might be heavily occupied with coding projects and running a global platform.",
+            "Prefers direct, outcome-oriented communication which might feel too blunt to some."
+          ],
+          "idealMatch": "Someone who is equally driven, appreciates intellectual or technical curiosity, and values a supportive, goal-oriented partnership.",
+          "dateIdeas": [
+            "Visiting a tech meetup or a collaborative coding workshop",
+            "A casual coffee chat discussing travel dreams and international experiences",
+            "Brainstorming side projects over a relaxed dinner"
+          ],
+          "conversationStarters": [
+            "What is the most interesting side project you've tinkered with lately?",
+            "If you could secure a fully funded fellowship anywhere in the world tomorrow, where would you go?",
+            "What's your go-to method for debugging a frustrating problem?"
+          ],
+          "confidence": 75,
+          "dataGaps": [
+            "Personal hobbies outside of coding and platform management",
+            "Specific lifestyle and fitness preferences",
+            "Relationship values and personal relationship history"
           ]
         }
       }

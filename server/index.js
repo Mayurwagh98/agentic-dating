@@ -92,6 +92,12 @@ app.post('/api/people/:id/process', wrap(async (req, res) => {
   res.json({ ok: true });
 }));
 
+app.patch('/api/people/:id', admin, wrap(async (req, res) => {
+  const { person, sourceChanged } = pipe.updatePerson(req.params.id, req.body || {});
+  if (sourceChanged && !pipe.run.running) pipe.processPerson(person.id).catch(() => {});
+  res.json({ person: pipe.publicPerson(person), sourceChanged });
+}));
+
 app.delete('/api/people/:id', admin, wrap(async (req, res) => {
   pipe.removePerson(req.params.id);
   res.json({ ok: true });
@@ -103,6 +109,11 @@ app.post('/api/run', wrap(async (req, res) => {
   pipe.runAll().catch((e) => console.error(e));
   res.json({ ok: true });
 }));
+
+app.post('/api/stop', (req, res) => {
+  pipe.stopAll();
+  res.json({ ok: true });
+});
 
 app.get('/api/rankings', (req, res) => {
   const out = store.get().people.filter((p) => p.status === 'ready').map((p) => ({
