@@ -1,0 +1,1549 @@
+{
+  "people": [
+    {
+      "id": "p_07b490ad55",
+      "linkedinUrl": "https://www.linkedin.com/in/radhika-bhangi-649a58267",
+      "instagramUrl": "https://www.instagram.com/ouraivideos/",
+      "liSlug": "radhika-bhangi-649a58267",
+      "igUsername": "ouraivideos",
+      "gender": "woman",
+      "seeking": "men",
+      "manual": {
+        "linkedin": "",
+        "instagram": ""
+      },
+      "status": "analyzing",
+      "createdAt": "2026-10-13T11:14:27.734Z",
+      "raw": {
+        "linkedin": {
+          "source": "linkedin",
+          "name": "Radhika Bhangi",
+          "headline": "AI & Data Science Graduate | AI Enthusiast | Generative AI 🚀",
+          "location": "Greater Bengaluru Area",
+          "avatar": "https://media.licdn.com/dms/image/v2/D4D03AQFwRsLZPnUsaw/profile-displayphoto-crop_800_800/B4DaExatMJKUAM-/0/1791830449422?e=1793232000&v=beta&t=YqsaBciBSmgg0ycIm-3VFNm5JAmX0IQZD1Ail2cvv1Y",
+          "experience": [
+            {
+              "title": "AI & data Associate Engineer",
+              "company": "RoadMetrics AI",
+              "duration": "2 mos",
+              "description": "Working on labeling and tagging data for AI models, checking data for accuracy, reviewing and correcting annotations, and preparing datasets for AI and machine learning projects while following quality guidelines."
+            },
+            {
+              "title": "Data Science Intern",
+              "company": "InCruiter",
+              "duration": "9 mos"
+            },
+            {
+              "title": "Artificial intelligence and data science Engineer",
+              "company": "InCruiter",
+              "duration": "10 mos"
+            },
+            {
+              "title": "Web Development Intern",
+              "company": "Vstand4U Solutions",
+              "duration": "6 mos",
+              "description": "Worked on full stack web applications using Java for backend development and React JS for building dynamic frontend interfaces. Gained hands-on experience with JavaScript, SQL, and Python in building RESTful APIs, form validations, and data handling. Implemented user authentication and CRUD operations using Spring Boot and MySQL."
+            },
+            {
+              "title": "Artificial Intelligence Specialist",
+              "company": "Tequed Labs",
+              "duration": "5 mos",
+              "description": "Gained foundational understanding of AI and ML algorithms including supervised and unsupervised learning. Worked on mini-projects involving regression, classification, and clustering using Python and libraries like scikit-learn and pandas. Explored computer vision basics and implemented simple image classification models. Understood practical applications of AI in domains such as healthcare and fi"
+            }
+          ],
+          "education": [
+            {
+              "school": "Angadi Institute of Technology and Management",
+              "degree": "Bachelor of Engineering",
+              "period": "2021 - 2025"
+            },
+            {
+              "school": "Banajwad Residential PU College",
+              "degree": "12th",
+              "period": "Nov 2019 - 2021"
+            },
+            {
+              "school": "KLE�s CBSE School, Ankali",
+              "degree": "10th",
+              "period": "2010 - 2019"
+            }
+          ],
+          "skills": [
+            "Data Structures",
+            "Natural Language Processing (NLP)",
+            "Pandas (Software)",
+            "React.js",
+            "Recurrent Neural Networks (RNN)",
+            "Data Science",
+            "Deep Neural Networks (DNN)",
+            "SQL",
+            "Deep Learning",
+            "Python (Programming Language)",
+            "Machine Learning",
+            "Project Work"
+          ],
+          "languages": [],
+          "volunteering": [],
+          "certifications": [],
+          "projects": [],
+          "awards": [],
+          "followers": 884
+        },
+        "instagram": {
+          "source": "instagram",
+          "username": "ouraivideos",
+          "name": "OurVideos",
+          "bio": "",
+          "website": null,
+          "category": null,
+          "followers": 0,
+          "following": 0,
+          "postCount": 4,
+          "isPrivate": false,
+          "avatar": "https://instagram.fmel16-1.fna.fbcdn.net/v/t51.2885-19/573323465_1219825463302212_7278921664109726296_n.png?stp=dst-webp&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xNTAuZXhwZXJpbWVudGFsIn0&_nc_ht=instagram.fmel16-1.fna.fbcdn.net&_nc_cat=1&_nc_oc=Q6cZ2gHf52cl0zEpAvkW0mGOwcgXIUfOXG_6TLbl7BRU54izeGZQntb6vPrv6FDdMn5tGqU&_nc_ohc=6tMhbzsXag0Q7kNvwE0rQeX&_nc_gid=isbDeg-BpuZdlSLPUTj5KQ&edm=AL4D0a4BAAAA&ccb=7-5&ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.3-ccb7-5&oh=00_AQMXin-2atda5qa57X7IC9APh7_DJOAawrOaYV_STfaP2w&oe=6AD3D82A&_nc_sid=9e8221",
+          "posts": [
+            {
+              "caption": "The Prince Who Refused to Flee and Built the Inca Empire\nhe stayed. #history #inca #machupicchu #historyfacts",
+              "hashtags": [
+                "history",
+                "inca",
+                "machupicchu",
+                "historyfacts"
+              ],
+              "location": null,
+              "type": "Video",
+              "date": "2026-10-13",
+              "alt": "",
+              "url": "https://www.instagram.com/p/DebiSP2IA5z/",
+              "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/846430665_17963755989000620_3229685104622795449_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gFGlYX8L6XY5Hc9yVSSeWIErhhGYLrTqNe2HOzdqNhg0eGMa0e12LtjyNZNSOIv3VGu5Da33HJZ1n1VPpDnfahr&_nc_ohc=ndf9fY48sg4Q7kNvwF8lPbC&_nc_gid=Bsmog2nupYhoQN81e0IX-A&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQP9Fw6Rn8TJaiAtY0wc7OIygeO2-6X2sbb6NYqVTazZpg&oe=6AD3CD42&_nc_sid=8b3546"
+            },
+            {
+              "caption": "",
+              "hashtags": [],
+              "location": null,
+              "type": "Video",
+              "date": "2026-10-11",
+              "alt": "",
+              "url": "https://www.instagram.com/p/DeWQgjZoL7s/",
+              "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/843928904_17963212065000620_5542172060003690167_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gFGlYX8L6XY5Hc9yVSSeWIErhhGYLrTqNe2HOzdqNhg0eGMa0e12LtjyNZNSOIv3VGu5Da33HJZ1n1VPpDnfahr&_nc_ohc=WPep586EDIcQ7kNvwEQcMTl&_nc_gid=Bsmog2nupYhoQN81e0IX-A&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQOOpToi95Cz-QRcvAwtiKPzfOxmCtu-QNaMsjik7JANIA&oe=6AD3CDAB&_nc_sid=8b3546"
+            },
+            {
+              "caption": "",
+              "hashtags": [],
+              "location": null,
+              "type": "Video",
+              "date": "2026-10-08",
+              "alt": "",
+              "url": "https://www.instagram.com/p/DeOaJqGosGs/",
+              "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/838966379_17962424841000620_8486660522978614428_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gFGlYX8L6XY5Hc9yVSSeWIErhhGYLrTqNe2HOzdqNhg0eGMa0e12LtjyNZNSOIv3VGu5Da33HJZ1n1VPpDnfahr&_nc_ohc=3AAqYOmnS9EQ7kNvwHMRpJ7&_nc_gid=Bsmog2nupYhoQN81e0IX-A&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQNr6EwKYu4yrwPEjKJS_9Q5OhIWtIl7-Gva4EMLW0VUBw&oe=6AD3D6C3&_nc_sid=8b3546"
+            },
+            {
+              "caption": "HE COMMANDED",
+              "hashtags": [],
+              "location": null,
+              "type": "Video",
+              "date": "2026-10-04",
+              "alt": "",
+              "url": "https://www.instagram.com/p/DeFMSHyoXs5/",
+              "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/836547517_17961596142000620_2732014567346007370_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gFGlYX8L6XY5Hc9yVSSeWIErhhGYLrTqNe2HOzdqNhg0eGMa0e12LtjyNZNSOIv3VGu5Da33HJZ1n1VPpDnfahr&_nc_ohc=GVecM5qFg4kQ7kNvwG1beud&_nc_gid=Bsmog2nupYhoQN81e0IX-A&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQO5kuV897ATvRwBQcxb3k51AGjXswUzY0HWqWIjYcsLQA&oe=6AD3CC6B&_nc_sid=8b3546"
+            }
+          ]
+        }
+      },
+      "scrapeWarnings": [],
+      "avatar": "https://instagram.fmel16-1.fna.fbcdn.net/v/t51.2885-19/573323465_1219825463302212_7278921664109726296_n.png?stp=dst-webp&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xNTAuZXhwZXJpbWVudGFsIn0&_nc_ht=instagram.fmel16-1.fna.fbcdn.net&_nc_cat=1&_nc_oc=Q6cZ2gHf52cl0zEpAvkW0mGOwcgXIUfOXG_6TLbl7BRU54izeGZQntb6vPrv6FDdMn5tGqU&_nc_ohc=6tMhbzsXag0Q7kNvwE0rQeX&_nc_gid=isbDeg-BpuZdlSLPUTj5KQ&edm=AL4D0a4BAAAA&ccb=7-5&ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.3-ccb7-5&oh=00_AQMXin-2atda5qa57X7IC9APh7_DJOAawrOaYV_STfaP2w&oe=6AD3D82A&_nc_sid=9e8221",
+      "avatarFile": "/avatars/p_07b490ad55.jpg",
+      "scrapedAt": "2026-10-13T11:14:29.237Z",
+      "notes": {
+        "linkedin": {
+          "observations": [
+            {
+              "note": "She is deeply immersed in the field of Artificial Intelligence, showing a consistent career trajectory from internships to associate roles.",
+              "evidence": "Headline: 'AI & Data Science Graduate | AI Enthusiast | Generative AI 🚀'"
+            },
+            {
+              "note": "She is likely in the early stages of her professional life, currently completing her undergraduate degree.",
+              "evidence": "Education: 'Angadi Institute of Technology and Management, Bachelor of Engineering, 2021 - 2025'"
+            },
+            {
+              "note": "She possesses a technical and analytical mindset, with a focus on building and refining complex data systems.",
+              "evidence": "Experience: 'Working on labeling and tagging data for AI models, checking data for accuracy, reviewing and correcting annotations'"
+            },
+            {
+              "note": "She is a versatile developer with experience across the full technology stack, not just data science.",
+              "evidence": "Experience: 'Worked on full stack web applications using Java for backend development and React JS for building dynamic frontend interfaces.'"
+            },
+            {
+              "note": "She is based in a major Indian tech hub, suggesting a lifestyle centered around a fast-paced urban professional environment.",
+              "location": "Greater Bengaluru Area"
+            },
+            {
+              "note": "She has a history of steady professional growth and persistence, having held multiple internships and roles during her studies.",
+              "evidence": "Experience: Lists five distinct roles including internships at InCruiter, Vstand4U Solutions, and Tequed Labs."
+            },
+            {
+              "note": "She values practical application and hands-on learning in her field.",
+              "evidence": "Experience: 'Worked on mini-projects involving regression, classification, and clustering using Python and libraries like scikit-learn and pandas.'"
+            },
+            {
+              "note": "She has a growing professional network and is active in the tech community.",
+              "evidence": "Followers: 884"
+            }
+          ],
+          "keywords": [
+            "AI Enthusiast",
+            "Data Scientist",
+            "Tech-Savvy",
+            "Early Career Professional",
+            "Full Stack Knowledge",
+            "Bengaluru Based",
+            "Analytical"
+          ],
+          "dataQuality": "moderate",
+          "gaps": [
+            "Personal hobbies and interests outside of technology",
+            "Communication style and personality traits",
+            "Social life and leisure activities",
+            "Travel preferences or lifestyle habits",
+            "Specific values or life goals beyond career"
+          ]
+        },
+        "instagram": {
+          "observations": [
+            {
+              "note": "The individual has a strong interest in historical narratives and ancient civilizations.",
+              "evidence": "Caption: 'The Prince Who Refused to Flee and Built the Inca Empire'"
+            },
+            {
+              "note": "They are fascinated by stories of leadership, resilience, and historical figures who 'stayed' during crises.",
+              "evidence": "Caption: 'he stayed. #history #inca #machupicchu #historyfacts'"
+            },
+            {
+              "note": "The profile is focused on educational or storytelling content rather than personal life.",
+              "evidence": "The username is 'ouraivideos' and all 4 posts are videos related to history or commanding figures."
+            },
+            {
+              "note": "They value themes of authority and command in historical contexts.",
+              "evidence": "Caption: 'HE COMMANDED'"
+            },
+            {
+              "note": "The account appears to be a niche content creator or curator rather than a personal social profile.",
+              "evidence": "Username 'ouraivideos', 0 followers, 0 following, and content focused exclusively on history facts."
+            },
+            {
+              "note": "They utilize specific historical locations and landmarks to anchor their content.",
+              "evidence": "Hashtags: #machupicchu and #inca"
+            }
+          ],
+          "keywords": [
+            "History Enthusiast",
+            "Content Creator",
+            "Storyteller",
+            "Inca History",
+            "Educational Content",
+            "Leadership Themes"
+          ],
+          "dataQuality": "thin",
+          "gaps": [
+            "No personal information (hobbies, lifestyle, values outside of history)",
+            "No professional background or LinkedIn data provided",
+            "No indication of social circle or interpersonal style",
+            "No geographic location or daily routine details"
+          ]
+        }
+      }
+    },
+    {
+      "id": "p_1359d1cdc0",
+      "linkedinUrl": "https://www.linkedin.com/in/mayur--wagh",
+      "instagramUrl": "https://www.instagram.com/opportunitiescircleofficial/",
+      "liSlug": "mayur--wagh",
+      "igUsername": "opportunitiescircleofficial",
+      "gender": "man",
+      "seeking": "women",
+      "manual": {
+        "linkedin": "",
+        "instagram": ""
+      },
+      "status": "analyzing",
+      "createdAt": "2026-10-13T11:14:48.397Z",
+      "raw": {
+        "linkedin": {
+          "source": "linkedin",
+          "name": "Mayur Wagh",
+          "headline": "Software Developer | Full-Stack Development | Python | AI/ML | Data Science | SQL",
+          "about": "I build things that work. Clean code, intuitive UIs, and fast performance—that’s the focus. My toolkit? React, JavaScript, Next.js, and HTML/CSS, plus a no-nonsense approach to problem-solving.\n\nI care about results, not buzzwords. Whether it’s optimizing an app, fixing stubborn bugs, or collaborating with a team, I get it done.\n\nOutside of work, I’m probably tinkering with a new project or learning something to stay sharp. If you’re looking for a developer who cuts through the fluff, let’s talk.",
+          "location": "Bengaluru, Karnataka, India",
+          "avatar": "https://media.licdn.com/dms/image/v2/D4D03AQFlErEWuSAnTg/profile-displayphoto-crop_800_800/B4DaExYm23JMAI-/0/1791829901349?e=1793232000&v=beta&t=tiqC1lLFfCz3gFXlnoWepRsKizh-rLUl8AeyTw6DmSU",
+          "experience": [
+            {
+              "title": "Career transition",
+              "company": "Career Break",
+              "duration": "4 mos",
+              "description": "Focused on strengthening and applying skills across software development and emerging technologies, including:\n\n• Full-Stack Web Development\n• Frontend Development\n• Python & SQL\n• AI/ML & Data Science\n• Building and improving technical projects and portfolio"
+            },
+            {
+              "title": "MERN Full Stack Developer",
+              "company": "InCruiter",
+              "duration": "1 yr",
+              "description": "- Owning end-to-end development of feature modules across React.js frontend and Node.js/Express.js backend, collaborating closely with product, design, and QA teams. \n - Building and maintaining responsive, high-performance user interfaces with React.js while ensuring seamless integration with backend services. \n - Contributing to Agile development processes through sprint planning, code reviews, "
+            },
+            {
+              "title": "(Founding Engineer) MERN Stack Developer",
+              "company": "OpenIntervue",
+              "duration": "2 yrs 2 mos"
+            },
+            {
+              "title": "Instructional Associate",
+              "company": "Masai ",
+              "duration": "11 mos"
+            },
+            {
+              "title": "Student",
+              "company": "Masai ",
+              "duration": "6 mos",
+              "description": "• Learning Full-Stack Web Development"
+            },
+            {
+              "title": "Student's Guide ",
+              "company": "Masai ",
+              "duration": "2 mos",
+              "description": "• Got a chance to be a student guide for two consecutive months in Masai School.\n• I helped students by providing them mental and emotional support.\n• Along with giving them mental and emotional support, I also helped them to clear their doubts regarding coding."
+            },
+            {
+              "title": "Data Annotator",
+              "company": "OrbitShifters Inc",
+              "duration": "1 yr 2 mos",
+              "description": "• I acclimated to extracting the images (data) from the videos.\n• Data was of US Olympics.\n• Later on after extracting the images I used to annotate them.\n• Further that data acclimated to train the models like ML and DL.\n• I was known as a rockstar of the annotations, as I did more annotations.\n• I trained 20+ students for the same."
+            },
+            {
+              "title": "Property Advisor",
+              "company": "Pinclick",
+              "duration": "3 mos",
+              "description": "• I was a Property Advisor in Pinclick.\n• My core role was in sales.\n• My role was to sale the real estate properties like Hiranandani, Tata, Piramal, etc."
+            }
+          ],
+          "education": [
+            {
+              "school": "Masai School",
+              "degree": "Full-Stack Web Developer",
+              "period": "Dec 2021 - Present"
+            },
+            {
+              "school": "Savitribai Phule Pune University",
+              "degree": "Bachelor of Engineering - BE",
+              "period": "2015 - 2019"
+            },
+            {
+              "school": "K. K. Wagh Secondary School and Junior College, Nasik",
+              "degree": "12th",
+              "period": "2013 - 2015"
+            },
+            {
+              "school": "Rotary English Medium School, Dhule",
+              "period": "2008 - 2013"
+            }
+          ],
+          "skills": [
+            "Redux toolkit",
+            "Next.js",
+            "Teamwork",
+            "reactjs",
+            "Tailwind CSS",
+            "Aws devops",
+            "Firebase",
+            "Redux Thunk",
+            "Redux.js",
+            "React.js",
+            "Ant Design",
+            "Material-UI"
+          ],
+          "languages": [],
+          "volunteering": [],
+          "certifications": [
+            "Basics of Web Development Certificate Course",
+            "Football Analytics Using Python",
+            "Digital Image Processing",
+            "Introduction to Deep Learning",
+            "Introduction to Neural Networks and Deep Learning",
+            "Game Development for Beginners with Python",
+            "Nodejs Crash Course: For Backend Developement 2020"
+          ],
+          "projects": [
+            "DevMatch",
+            "AJIO (Clone)",
+            "Banggood (Clone)"
+          ],
+          "awards": [],
+          "followers": 1785
+        },
+        "instagram": {
+          "source": "instagram",
+          "username": "opportunitiescircleofficial",
+          "name": "Opportunities Circle 👨‍🎓",
+          "bio": "Leading opportunities discovering platform for youth globally 🌍✈️🎓\nFor collaboration and advertisement, contact advertise@opportunitiescircle.com",
+          "website": "https://linktr.ee/opportunitiescircle",
+          "category": "Education website",
+          "followers": 1568821,
+          "following": 6,
+          "postCount": 8676,
+          "isPrivate": false,
+          "avatar": "https://scontent-dus1-1.cdninstagram.com/v/t51.2885-19/23417034_143491842944018_4716131565707460608_n.jpg?_nc_cat=1&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy45NjAuQzMifQ%3D%3D&_nc_ohc=Za8yOOMptU8Q7kNvwETJN40&_nc_oc=Adojh8OCb-6MIMUtCB_5CMvBGHAkCNU03wNkWtMkuCrzq9GKI-B4V1MMWP7MJRLfC1c&_nc_zt=24&_nc_ht=scontent-dus1-1.cdninstagram.com&_nc_ss=70a8c&oh=00_AQPsQWpDG6IKviJW9Th9d3H5_o33eh15Ef19Xz5miZzpCQ&oe=6AD3DA80",
+          "posts": [
+            {
+              "caption": "Planning to apply for the Erasmus Mundus Scholarship? Join our Free Online Erasmus Mundus Scholarship Session and get practical guidance to strengthen your application.\n\nLearn directly from Mohsin, an Erasmus Scholar, as he shares insights on the application process, motivation letter, important application tips, and more to help prospective applicants better understand the Erasmus Mundus journey.\n\nSession Details:\nDate: 15 October 2026\nMode: Online via Zoom\nSession: Free\n\nWhether you are starti",
+              "hashtags": [
+                "opportunitiescircle",
+                "erasmusmundus",
+                "erasmusscholarship",
+                "studyineurope",
+                "scholarshipopportunities"
+              ],
+              "location": null,
+              "type": "Image",
+              "date": "2026-10-13",
+              "alt": "",
+              "url": "https://www.instagram.com/p/DebpxAYFbF7/",
+              "image": "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/846430656_18373109971208620_1195776040463287616_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-fra3-2.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gGBRP8htaPKTwbItVMQyY8_i2zQJol4z4XrDpn1iMrordTgR98687Nd3qAjLclDxf8&_nc_ohc=APBkH0fph-sQ7kNvwFoEDJj&_nc_gid=IwtppgK8wg0dUfQmqeeyAg&edm=APU89FABAAAA&ccb=7-5&oh=00_AQMRocJhr9FCJB5LUcktVmrgKZCfmqADyPY51G8f4Fiq1w&oe=6AD3FD48&_nc_sid=bc0c2c"
+            },
+            {
+              "caption": "Salzburg Global Communications Internship 2027 in Austria | Funded\n\nBenefits:\n• Gain hands-on experience in communications, media, and digital content creation.\n• Work on social media management, storytelling, and promotional campaigns.\n• Collaborate with an international team of professionals and experts.\n• Develop skills in content writing, photography, and digital communications.\n• Gain professional exposure to global leadership and international programs.\n\nDeadline: Varies\n\nLink is available",
+              "hashtags": [
+                "opportunitiescircle",
+                "salzburgglobal",
+                "communicationsinternship",
+                "austria",
+                "internshipopportunities"
+              ],
+              "location": null,
+              "type": "Image",
+              "date": "2026-10-13",
+              "alt": "",
+              "url": "https://www.instagram.com/p/Debi4Qdil2s/",
+              "image": "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/846737617_18373103554208620_452943125446332644_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-fra3-2.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gGBRP8htaPKTwbItVMQyY8_i2zQJol4z4XrDpn1iMrordTgR98687Nd3qAjLclDxf8&_nc_ohc=YnaGgNZQjfkQ7kNvwFrsgjS&_nc_gid=IwtppgK8wg0dUfQmqeeyAg&edm=APU89FABAAAA&ccb=7-5&oh=00_AQPk573DSpxhsszWRtH_ZeKdyAcaXZQn7Gbj0fIgAeZyaQ&oe=6AD3D350&_nc_sid=bc0c2c"
+            },
+            {
+              "caption": "USTC Winter Camp in China 2026\n\nBenefits\n• Allowance for travel, accommodation, and meals fully covered.\n• Explore research labs and attend academic lectures.\n• Cultural visits and interaction with USTC professors.\n• Designed for international undergraduate and graduate students.\n \nDeadline: November 20, 2025.\n\nLink is available in our story and highlights\n\nCredit to: International College of University of Science and Technology of China\n\nOpportunities Circle does not claim ownership of opportun",
+              "hashtags": [
+                "opportunitiescircle",
+                "internship",
+                "china",
+                "ustc",
+                "fullyfunded"
+              ],
+              "location": null,
+              "type": "Image",
+              "date": "2026-10-13",
+              "alt": "",
+              "url": "https://www.instagram.com/p/DebO_BIijG3/",
+              "image": "https://scontent-fra5-1.cdninstagram.com/v/t51.82787-15/848119388_18373090069208620_3543841083063028936_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-fra5-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2gGBRP8htaPKTwbItVMQyY8_i2zQJol4z4XrDpn1iMrordTgR98687Nd3qAjLclDxf8&_nc_ohc=OnUqerCZArkQ7kNvwGU00DT&_nc_gid=IwtppgK8wg0dUfQmqeeyAg&edm=APU89FABAAAA&ccb=7-5&oh=00_AQP6lURR2yyhjlfN6TQ9X57aOCNdeywSi5IGqbtlwtADGQ&oe=6AD3F08B&_nc_sid=bc0c2c"
+            },
+            {
+              "caption": "University of British Columbia Fellowship 2026 in Canada | Fully Funded \n\nBenefits:\n• Financial support for graduate students at the University of British Columbia.\n• Annual stipend to assist with living expenses.\n• Great opportunity to study for free in Canada.\n• Opportunity to study at a top-ranked research university in Canada.\n\nDeadline: Varies by department and program.\n\nLink is available in our story and highlights\n\nCredit to: University of British Columbia\n\nOpportunities Circle does not c",
+              "hashtags": [
+                "opportunitiescircle",
+                "canada",
+                "fellowship",
+                "graduate",
+                "ubc"
+              ],
+              "location": null,
+              "type": "Image",
+              "date": "2026-10-12",
+              "alt": "",
+              "url": "https://www.instagram.com/p/DeaXXmIGDAu/",
+              "image": "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/845124977_18373039162208620_173156074688546095_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-fra3-2.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gGBRP8htaPKTwbItVMQyY8_i2zQJol4z4XrDpn1iMrordTgR98687Nd3qAjLclDxf8&_nc_ohc=pzvL1XsUt4EQ7kNvwEz5MQO&_nc_gid=IwtppgK8wg0dUfQmqeeyAg&edm=APU89FABAAAA&ccb=7-5&oh=00_AQNBQdT4aw70kItDm-5oKxla9VP5c9bEImCBgMk4BPEITQ&oe=6AD3D555&_nc_sid=bc0c2c"
+            },
+            {
+              "caption": "Boston University Presidential Scholarship 2026 in USA | Fully Funded\n\nBenefits:\n• Scholarship award per academic year toward undergraduate tuition fees.\n• Renewable for up to four years of undergraduate study, subject to maintaining eligibility requirements.\n• Opportunity to study at Boston University, a leading research university in the USA.\n• Recognition for outstanding academic achievement, leadership, and extracurricular involvement.\n\nDeadline: December 1, 2026\n\nLink is available in our st",
+              "hashtags": [
+                "opportunitiescircle",
+                "usa",
+                "scholarship",
+                "bostonuniversity",
+                "undergraduate"
+              ],
+              "location": null,
+              "type": "Image",
+              "date": "2026-10-12",
+              "alt": "",
+              "url": "https://www.instagram.com/p/DeaJo1wDKQk/",
+              "image": "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/847006750_18373030486208620_5947699820851603140_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-fra3-2.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gGBRP8htaPKTwbItVMQyY8_i2zQJol4z4XrDpn1iMrordTgR98687Nd3qAjLclDxf8&_nc_ohc=Q9eLhGcJOZcQ7kNvwFD_x0O&_nc_gid=IwtppgK8wg0dUfQmqeeyAg&edm=APU89FABAAAA&ccb=7-5&oh=00_AQMMDIk6X8TWO6kGW1zcIW2Ezz5CJFlO1LVGBBKaTKDdyQ&oe=6AD3DAA9&_nc_sid=bc0c2c"
+            },
+            {
+              "caption": "Netflix Internship Program 2026\n\nBenefits:\n• Paid internship opportunities at Netflix across various departments.\n• Hands-on professional experience in a global media company.\n• Exposure to real-world projects and industry practices.\n• Mentorship and learning opportunities from experienced professionals.\n• Opportunity to build professional and technical skills.\n\nDeadline: Varies\n\nLink is available in our story and highlights\n\nCredit to: Netflix\n\nOpportunities Circle does not claim ownership of o",
+              "hashtags": [
+                "opportunitiescircle",
+                "usa",
+                "internship",
+                "netflix",
+                "careers"
+              ],
+              "location": null,
+              "type": "Image",
+              "date": "2026-10-12",
+              "alt": "",
+              "url": "https://www.instagram.com/p/DeZ76gsFYx0/",
+              "image": "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/846449406_18373018345208620_5464278093218041219_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-fra3-2.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gGBRP8htaPKTwbItVMQyY8_i2zQJol4z4XrDpn1iMrordTgR98687Nd3qAjLclDxf8&_nc_ohc=kZFXE4WJazMQ7kNvwFXIkJX&_nc_gid=IwtppgK8wg0dUfQmqeeyAg&edm=APU89FABAAAA&ccb=7-5&oh=00_AQMd5QnD6XsRp1UdfKS-V_o-snlpbPiiJQvyhOLQKLeHaQ&oe=6AD3DDCD&_nc_sid=bc0c2c"
+            },
+            {
+              "caption": "JINR Winter Student Program 2027 in Russia | Fully Funded\n\nBenefits:\n• Travel expenses covered for selected participants.\n• Accommodation provided during the program.\n• Financial support for meals and daily expenses.\n• Gain hands-on experience in scientific research and laboratory projects.\n• Work with international researchers and experts at JINR.\n\nDeadline: October 16, 2026\n\nLink is available in our story and highlights\n\nCredit to: Joint Institute for Nuclear Research (JINR)\n\nOpportunities Cir",
+              "hashtags": [
+                "opportunitiescircle",
+                "jinr",
+                "winterprogram",
+                "fullyfunded",
+                "researchopportunities"
+              ],
+              "location": null,
+              "type": "Image",
+              "date": "2026-10-12",
+              "alt": "",
+              "url": "https://www.instagram.com/p/DeZnWgzDVXq/",
+              "image": "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/846394228_18372994102208620_8879519898354663318_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-fra3-2.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gGBRP8htaPKTwbItVMQyY8_i2zQJol4z4XrDpn1iMrordTgR98687Nd3qAjLclDxf8&_nc_ohc=E0uWV1uCXRUQ7kNvwHuZn6G&_nc_gid=IwtppgK8wg0dUfQmqeeyAg&edm=APU89FABAAAA&ccb=7-5&oh=00_AQOEwd5i-XMkYTdHZ0sUnpsigbTyD3qp390vrnCI4h3EFw&oe=6AD3E3D9&_nc_sid=bc0c2c"
+            },
+            {
+              "caption": "Want to add international experience to your CV? We’ve rounded up internship opportunities from leading companies, research institutes, global organizations, and international institutions with opportunities across different fields and career paths.\n\nDepending on the program, you could gain:\n→ Hands-on industry or research experience\n→ Professional training and mentorship\n→ International workplace exposure\n→ Networking opportunities\n→ Financial support\n\nFind an opportunity that matches your goal",
+              "hashtags": [
+                "OpportunitiesCircle",
+                "InternationalInternships",
+                "Internships",
+                "StudentOpportunities",
+                "CareerGrowth"
+              ],
+              "location": null,
+              "type": "Sidecar",
+              "date": "2026-10-12",
+              "alt": "",
+              "url": "https://www.instagram.com/p/DeZTC_oinbe/",
+              "image": "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/845552947_18372971152208620_4455990176406988573_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-fra3-2.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gGBRP8htaPKTwbItVMQyY8_i2zQJol4z4XrDpn1iMrordTgR98687Nd3qAjLclDxf8&_nc_ohc=WR-b5alW93IQ7kNvwGs2ALd&_nc_gid=IwtppgK8wg0dUfQmqeeyAg&edm=APU89FABAAAA&ccb=7-5&oh=00_AQOHTamRhBPBZwA6dGJ9MCJz3u5rvXC_S9cC25-cOY5e3w&oe=6AD3F1D2&_nc_sid=bc0c2c"
+            },
+            {
+              "caption": "Planning to apply for the Erasmus Mundus Scholarship but don't know where to start?\n\nYour chance to learn directly from an Erasmus Mundus Scholar is here!\n\nOpportunities Circle is hosting a FREE Erasmus Mundus Online Session with Erasmus Scholar Mohsin to help you understand the scholarship and prepare a stronger application.\n\nWhat will you learn?\n• How to find the right Erasmus Mundus programs\n• Eligibility criteria and application requirements\n• Scholarship benefits and funding opportunities\n•",
+              "hashtags": [
+                "opportunitiescircle",
+                "erasmusmundus",
+                "erasmusscholarship",
+                "studyineurope",
+                "fullyfundedscholarships"
+              ],
+              "location": null,
+              "type": "Video",
+              "date": "2026-10-12",
+              "alt": "",
+              "url": "https://www.instagram.com/p/DeZOuCxNz8e/",
+              "image": "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/848307450_18372966970208620_7444768613109733916_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-fra3-2.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gGBRP8htaPKTwbItVMQyY8_i2zQJol4z4XrDpn1iMrordTgR98687Nd3qAjLclDxf8&_nc_ohc=3E3JQtXPCfAQ7kNvwHAXRNs&_nc_gid=IwtppgK8wg0dUfQmqeeyAg&edm=APU89FABAAAA&ccb=7-5&oh=00_AQMfqntcgZu1mxv9LTBUvE2__ALKNkxvjPtPNat5UwKjFg&oe=6AD3D19E&_nc_sid=bc0c2c"
+            },
+            {
+              "caption": "Comment 'Harvard' to get the link\n\nHarvard University is offering fully funded online courses that you can join from anywhere in the world, completely online and at your own pace.\n\nWhether you're interested in Data Science, Business, Computer Science, Health Sciences, Art & Design, or more, these courses are a great way to learn from Harvard faculty, gain valuable knowledge, and strengthen your CV with flexible, self-paced learning.\n\nWhy should you apply?\n🌍 Open to applicants worldwide\n💻 Self-",
+              "hashtags": [
+                "opportunitiescircle",
+                "harvard",
+                "onlinecourses",
+                "freecourses",
+                "studyonline"
+              ],
+              "location": null,
+              "type": "Sidecar",
+              "date": "2026-10-12",
+              "alt": "",
+              "url": "https://www.instagram.com/p/DeY-JIfm3mS/",
+              "image": "https://scontent-fra3-1.cdninstagram.com/v/t51.82787-15/848014607_17929270116414954_6626675812337655179_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-fra3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gGBRP8htaPKTwbItVMQyY8_i2zQJol4z4XrDpn1iMrordTgR98687Nd3qAjLclDxf8&_nc_ohc=ccG1sudBwV0Q7kNvwGMhCDc&_nc_gid=IwtppgK8wg0dUfQmqeeyAg&edm=APU89FABAAAA&ccb=7-5&oh=00_AQPeywE47LB1izr5yU2gvrsgEPqA4Pi-xdNt2qF3As_qzA&oe=6AD3E33F&_nc_sid=bc0c2c"
+            },
+            {
+              "caption": "Doha Institute Scholarships 2027 in Qatar | Fully Funded\n\nBenefits:\n• Full tuition fee coverage for selected students.\n• Accommodation provided during the study period.\n• Monthly living allowance provided.\n• Health insurance coverage included.\n• Travel support provided for eligible international students.\n\nDeadline: January 15, 2027\n\nLink is available in our story and highlights\n\nCredit to: Doha Institute for Graduate Studies\n\nOpportunities Circle does not claim ownership of opportunities shared",
+              "hashtags": [
+                "opportunitiescircle",
+                "dohainstitute",
+                "qatarscholarships",
+                "fullyfunded",
+                "studyinqatar"
+              ],
+              "location": null,
+              "type": "Image",
+              "date": "2026-10-12",
+              "alt": "",
+              "url": "https://www.instagram.com/p/DeYpg4KisrJ/",
+              "image": "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/847570159_18372940492208620_5180945912810333383_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-fra3-2.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gGBRP8htaPKTwbItVMQyY8_i2zQJol4z4XrDpn1iMrordTgR98687Nd3qAjLclDxf8&_nc_ohc=mAnfc8auAF4Q7kNvwHHymOx&_nc_gid=IwtppgK8wg0dUfQmqeeyAg&edm=APU89FABAAAA&ccb=7-5&oh=00_AQNQ3hDoTzZV7hAcZ9n4SNnMp2nN_YLd3iwdTphOYmzl7Q&oe=6AD3D554&_nc_sid=bc0c2c"
+            },
+            {
+              "caption": "USDA Internship Program 2027 in the USA\n\nBenefits:\n• Gain hands-on professional experience at the U.S. Department of Agriculture.\n• Work on research, data analysis, communications, outreach, and program operations.\n• Receive mentorship and guidance from USDA professionals.\n• Participate in professional development and learning\nsessions.\n• Gain practical exposure to public service, agriculture, science, and policy.\n\nDeadline: November 13, 2026\n\nLink is available in our story and highlights\n\nCredi",
+              "hashtags": [
+                "opportunitiescircle",
+                "usdainternship",
+                "internship",
+                "careeropportunities",
+                "usa"
+              ],
+              "location": null,
+              "type": "Image",
+              "date": "2026-10-11",
+              "alt": "",
+              "url": "https://www.instagram.com/p/DeXyj2QisU-/",
+              "image": "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/847570152_18372898669208620_9177385601487274324_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-fra3-2.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gGBRP8htaPKTwbItVMQyY8_i2zQJol4z4XrDpn1iMrordTgR98687Nd3qAjLclDxf8&_nc_ohc=lDVilGc42rMQ7kNvwHTibiw&_nc_gid=IwtppgK8wg0dUfQmqeeyAg&edm=APU89FABAAAA&ccb=7-5&oh=00_AQOBQJy5a2gBXfsnsdDGzFlH7YzT9zuwewYMNNY7Vd91qA&oe=6AD3CA4F&_nc_sid=bc0c2c"
+            }
+          ]
+        }
+      },
+      "scrapeWarnings": [],
+      "avatar": "https://scontent-dus1-1.cdninstagram.com/v/t51.2885-19/23417034_143491842944018_4716131565707460608_n.jpg?_nc_cat=1&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy45NjAuQzMifQ%3D%3D&_nc_ohc=Za8yOOMptU8Q7kNvwETJN40&_nc_oc=Adojh8OCb-6MIMUtCB_5CMvBGHAkCNU03wNkWtMkuCrzq9GKI-B4V1MMWP7MJRLfC1c&_nc_zt=24&_nc_ht=scontent-dus1-1.cdninstagram.com&_nc_ss=70a8c&oh=00_AQPsQWpDG6IKviJW9Th9d3H5_o33eh15Ef19Xz5miZzpCQ&oe=6AD3DA80",
+      "avatarFile": "/avatars/p_1359d1cdc0.jpg",
+      "scrapedAt": "2026-10-13T11:14:49.890Z"
+    }
+  ],
+  "dates": [],
+  "compat": {},
+  "cache": {
+    "linkedin": {
+      "mayur--wagh": {
+        "at": "2026-10-13T10:59:01.602Z",
+        "data": {
+          "source": "linkedin",
+          "name": "Mayur Wagh",
+          "headline": "Software Developer | Full-Stack Development | Python | AI/ML | Data Science | SQL",
+          "about": "I build things that work. Clean code, intuitive UIs, and fast performance—that’s the focus. My toolkit? React, JavaScript, Next.js, and HTML/CSS, plus a no-nonsense approach to problem-solving.\n\nI care about results, not buzzwords. Whether it’s optimizing an app, fixing stubborn bugs, or collaborating with a team, I get it done.\n\nOutside of work, I’m probably tinkering with a new project or learning something to stay sharp. If you’re looking for a developer who cuts through the fluff, let’s talk.",
+          "location": "Bengaluru, Karnataka, India",
+          "avatar": "https://media.licdn.com/dms/image/v2/D4D03AQFlErEWuSAnTg/profile-displayphoto-crop_800_800/B4DaExYm23JMAI-/0/1791829901349?e=1793232000&v=beta&t=tiqC1lLFfCz3gFXlnoWepRsKizh-rLUl8AeyTw6DmSU",
+          "experience": [
+            {
+              "title": "Career transition",
+              "company": "Career Break",
+              "duration": "4 mos",
+              "description": "Focused on strengthening and applying skills across software development and emerging technologies, including:\n\n• Full-Stack Web Development\n• Frontend Development\n• Python & SQL\n• AI/ML & Data Science\n• Building and improving technical projects and portfolio"
+            },
+            {
+              "title": "MERN Full Stack Developer",
+              "company": "InCruiter",
+              "duration": "1 yr",
+              "description": "- Owning end-to-end development of feature modules across React.js frontend and Node.js/Express.js backend, collaborating closely with product, design, and QA teams. \n - Building and maintaining responsive, high-performance user interfaces with React.js while ensuring seamless integration with backend services. \n - Contributing to Agile development processes through sprint planning, code reviews, "
+            },
+            {
+              "title": "(Founding Engineer) MERN Stack Developer",
+              "company": "OpenIntervue",
+              "duration": "2 yrs 2 mos"
+            },
+            {
+              "title": "Instructional Associate",
+              "company": "Masai ",
+              "duration": "11 mos"
+            },
+            {
+              "title": "Student",
+              "company": "Masai ",
+              "duration": "6 mos",
+              "description": "• Learning Full-Stack Web Development"
+            },
+            {
+              "title": "Student's Guide ",
+              "company": "Masai ",
+              "duration": "2 mos",
+              "description": "• Got a chance to be a student guide for two consecutive months in Masai School.\n• I helped students by providing them mental and emotional support.\n• Along with giving them mental and emotional support, I also helped them to clear their doubts regarding coding."
+            },
+            {
+              "title": "Data Annotator",
+              "company": "OrbitShifters Inc",
+              "duration": "1 yr 2 mos",
+              "description": "• I acclimated to extracting the images (data) from the videos.\n• Data was of US Olympics.\n• Later on after extracting the images I used to annotate them.\n• Further that data acclimated to train the models like ML and DL.\n• I was known as a rockstar of the annotations, as I did more annotations.\n• I trained 20+ students for the same."
+            },
+            {
+              "title": "Property Advisor",
+              "company": "Pinclick",
+              "duration": "3 mos",
+              "description": "• I was a Property Advisor in Pinclick.\n• My core role was in sales.\n• My role was to sale the real estate properties like Hiranandani, Tata, Piramal, etc."
+            }
+          ],
+          "education": [
+            {
+              "school": "Masai School",
+              "degree": "Full-Stack Web Developer",
+              "period": "Dec 2021 - Present"
+            },
+            {
+              "school": "Savitribai Phule Pune University",
+              "degree": "Bachelor of Engineering - BE",
+              "period": "2015 - 2019"
+            },
+            {
+              "school": "K. K. Wagh Secondary School and Junior College, Nasik",
+              "degree": "12th",
+              "period": "2013 - 2015"
+            },
+            {
+              "school": "Rotary English Medium School, Dhule",
+              "period": "2008 - 2013"
+            }
+          ],
+          "skills": [
+            "Redux toolkit",
+            "Next.js",
+            "Teamwork",
+            "reactjs",
+            "Tailwind CSS",
+            "Aws devops",
+            "Firebase",
+            "Redux Thunk",
+            "Redux.js",
+            "React.js",
+            "Ant Design",
+            "Material-UI"
+          ],
+          "languages": [],
+          "volunteering": [],
+          "certifications": [
+            "Basics of Web Development Certificate Course",
+            "Football Analytics Using Python",
+            "Digital Image Processing",
+            "Introduction to Deep Learning",
+            "Introduction to Neural Networks and Deep Learning",
+            "Game Development for Beginners with Python",
+            "Nodejs Crash Course: For Backend Developement 2020"
+          ],
+          "projects": [
+            "DevMatch",
+            "AJIO (Clone)",
+            "Banggood (Clone)"
+          ],
+          "awards": [],
+          "followers": 1785
+        }
+      },
+      "radhika-bhangi-649a58267": {
+        "at": "2026-10-13T10:59:29.033Z",
+        "data": {
+          "source": "linkedin",
+          "name": "Radhika Bhangi",
+          "headline": "AI & Data Science Graduate | AI Enthusiast | Generative AI 🚀",
+          "location": "Greater Bengaluru Area",
+          "avatar": "https://media.licdn.com/dms/image/v2/D4D03AQFwRsLZPnUsaw/profile-displayphoto-crop_800_800/B4DaExatMJKUAM-/0/1791830449422?e=1793232000&v=beta&t=YqsaBciBSmgg0ycIm-3VFNm5JAmX0IQZD1Ail2cvv1Y",
+          "experience": [
+            {
+              "title": "AI & data Associate Engineer",
+              "company": "RoadMetrics AI",
+              "duration": "2 mos",
+              "description": "Working on labeling and tagging data for AI models, checking data for accuracy, reviewing and correcting annotations, and preparing datasets for AI and machine learning projects while following quality guidelines."
+            },
+            {
+              "title": "Data Science Intern",
+              "company": "InCruiter",
+              "duration": "9 mos"
+            },
+            {
+              "title": "Artificial intelligence and data science Engineer",
+              "company": "InCruiter",
+              "duration": "10 mos"
+            },
+            {
+              "title": "Web Development Intern",
+              "company": "Vstand4U Solutions",
+              "duration": "6 mos",
+              "description": "Worked on full stack web applications using Java for backend development and React JS for building dynamic frontend interfaces. Gained hands-on experience with JavaScript, SQL, and Python in building RESTful APIs, form validations, and data handling. Implemented user authentication and CRUD operations using Spring Boot and MySQL."
+            },
+            {
+              "title": "Artificial Intelligence Specialist",
+              "company": "Tequed Labs",
+              "duration": "5 mos",
+              "description": "Gained foundational understanding of AI and ML algorithms including supervised and unsupervised learning. Worked on mini-projects involving regression, classification, and clustering using Python and libraries like scikit-learn and pandas. Explored computer vision basics and implemented simple image classification models. Understood practical applications of AI in domains such as healthcare and fi"
+            }
+          ],
+          "education": [
+            {
+              "school": "Angadi Institute of Technology and Management",
+              "degree": "Bachelor of Engineering",
+              "period": "2021 - 2025"
+            },
+            {
+              "school": "Banajwad Residential PU College",
+              "degree": "12th",
+              "period": "Nov 2019 - 2021"
+            },
+            {
+              "school": "KLE�s CBSE School, Ankali",
+              "degree": "10th",
+              "period": "2010 - 2019"
+            }
+          ],
+          "skills": [
+            "Data Structures",
+            "Natural Language Processing (NLP)",
+            "Pandas (Software)",
+            "React.js",
+            "Recurrent Neural Networks (RNN)",
+            "Data Science",
+            "Deep Neural Networks (DNN)",
+            "SQL",
+            "Deep Learning",
+            "Python (Programming Language)",
+            "Machine Learning",
+            "Project Work"
+          ],
+          "languages": [],
+          "volunteering": [],
+          "certifications": [],
+          "projects": [],
+          "awards": [],
+          "followers": 884
+        }
+      }
+    },
+    "instagram": {
+      "horse.49590435": {
+        "at": "2026-10-13T10:59:01.602Z",
+        "data": {
+          "source": "instagram",
+          "username": "horse.49590435",
+          "name": "",
+          "bio": "",
+          "website": null,
+          "category": null,
+          "followers": 16,
+          "following": 36,
+          "postCount": 2,
+          "isPrivate": false,
+          "avatar": "https://instagram.fssa23-1.fna.fbcdn.net/v/t51.82787-19/782208105_18089708897226828_1232225174889358758_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fssa23-1.fna.fbcdn.net&_nc_cat=100&_nc_oc=Q6cZ2gG4O8jSxJIzwQr-2GKCwh4-o810YlM4sxcVJpubownQeJzucjY8Si7cTgFL-qcOBO4&_nc_ohc=2mSX3fSPwEYQ7kNvwFu9Hqb&_nc_gid=YpK6cauKGUIxPo3SBGI86g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQMLLpk0LlvmXRYmRbBhgdLdp51L7EB675QC1uDjdpw-nw&oe=6AD3DCC4&_nc_sid=8b3546",
+          "posts": [
+            {
+              "caption": "",
+              "hashtags": [],
+              "location": null,
+              "type": "Video",
+              "date": "2026-09-23",
+              "alt": "",
+              "url": "https://www.instagram.com/p/DdoWsE_znKp/",
+              "image": "https://instagram.fssa9-1.fna.fbcdn.net/v/t51.71878-15/819002884_1062486239739294_8663375038894713642_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=instagram.fssa9-1.fna.fbcdn.net&_nc_cat=106&_nc_oc=Q6cZ2gG4O8jSxJIzwQr-2GKCwh4-o810YlM4sxcVJpubownQeJzucjY8Si7cTgFL-qcOBO4&_nc_ohc=Za7Td9HbyYsQ7kNvwEJRiM6&_nc_gid=YpK6cauKGUIxPo3SBGI86g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQOVW3t9AQjEm035UusKkDUAgfp408mC-Mp269_KZyy-og&oe=6AD3CE8F&_nc_sid=8b3546"
+            },
+            {
+              "caption": "",
+              "hashtags": [],
+              "location": null,
+              "type": "Video",
+              "date": "2026-08-29",
+              "alt": "",
+              "url": "https://www.instagram.com/p/Dcm_FWxzMmx/",
+              "image": "https://instagram.fssa9-1.fna.fbcdn.net/v/t51.71878-15/784980452_1819529866159435_7108456551919640400_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=instagram.fssa9-1.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2gG4O8jSxJIzwQr-2GKCwh4-o810YlM4sxcVJpubownQeJzucjY8Si7cTgFL-qcOBO4&_nc_ohc=i-sj22Rxu5MQ7kNvwHCjVIm&_nc_gid=YpK6cauKGUIxPo3SBGI86g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQNVtdCdC0ZsJLqkRJq2r4sCnbP70a-uU3nGt8T14Blg3g&oe=6AD3F2B7&_nc_sid=8b3546"
+            }
+          ]
+        }
+      },
+      "ouraivideos": {
+        "at": "2026-10-13T10:59:29.033Z",
+        "data": {
+          "source": "instagram",
+          "username": "ouraivideos",
+          "name": "OurVideos",
+          "bio": "",
+          "website": null,
+          "category": null,
+          "followers": 0,
+          "following": 0,
+          "postCount": 4,
+          "isPrivate": false,
+          "avatar": "https://instagram.fmel16-1.fna.fbcdn.net/v/t51.2885-19/573323465_1219825463302212_7278921664109726296_n.png?stp=dst-webp&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xNTAuZXhwZXJpbWVudGFsIn0&_nc_ht=instagram.fmel16-1.fna.fbcdn.net&_nc_cat=1&_nc_oc=Q6cZ2gHf52cl0zEpAvkW0mGOwcgXIUfOXG_6TLbl7BRU54izeGZQntb6vPrv6FDdMn5tGqU&_nc_ohc=6tMhbzsXag0Q7kNvwE0rQeX&_nc_gid=isbDeg-BpuZdlSLPUTj5KQ&edm=AL4D0a4BAAAA&ccb=7-5&ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.3-ccb7-5&oh=00_AQMXin-2atda5qa57X7IC9APh7_DJOAawrOaYV_STfaP2w&oe=6AD3D82A&_nc_sid=9e8221",
+          "posts": [
+            {
+              "caption": "The Prince Who Refused to Flee and Built the Inca Empire\nhe stayed. #history #inca #machupicchu #historyfacts",
+              "hashtags": [
+                "history",
+                "inca",
+                "machupicchu",
+                "historyfacts"
+              ],
+              "location": null,
+              "type": "Video",
+              "date": "2026-10-13",
+              "alt": "",
+              "url": "https://www.instagram.com/p/DebiSP2IA5z/",
+              "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/846430665_17963755989000620_3229685104622795449_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gFGlYX8L6XY5Hc9yVSSeWIErhhGYLrTqNe2HOzdqNhg0eGMa0e12LtjyNZNSOIv3VGu5Da33HJZ1n1VPpDnfahr&_nc_ohc=ndf9fY48sg4Q7kNvwF8lPbC&_nc_gid=Bsmog2nupYhoQN81e0IX-A&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQP9Fw6Rn8TJaiAtY0wc7OIygeO2-6X2sbb6NYqVTazZpg&oe=6AD3CD42&_nc_sid=8b3546"
+            },
+            {
+              "caption": "",
+              "hashtags": [],
+              "location": null,
+              "type": "Video",
+              "date": "2026-10-11",
+              "alt": "",
+              "url": "https://www.instagram.com/p/DeWQgjZoL7s/",
+              "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/843928904_17963212065000620_5542172060003690167_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gFGlYX8L6XY5Hc9yVSSeWIErhhGYLrTqNe2HOzdqNhg0eGMa0e12LtjyNZNSOIv3VGu5Da33HJZ1n1VPpDnfahr&_nc_ohc=WPep586EDIcQ7kNvwEQcMTl&_nc_gid=Bsmog2nupYhoQN81e0IX-A&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQOOpToi95Cz-QRcvAwtiKPzfOxmCtu-QNaMsjik7JANIA&oe=6AD3CDAB&_nc_sid=8b3546"
+            },
+            {
+              "caption": "",
+              "hashtags": [],
+              "location": null,
+              "type": "Video",
+              "date": "2026-10-08",
+              "alt": "",
+              "url": "https://www.instagram.com/p/DeOaJqGosGs/",
+              "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/838966379_17962424841000620_8486660522978614428_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gFGlYX8L6XY5Hc9yVSSeWIErhhGYLrTqNe2HOzdqNhg0eGMa0e12LtjyNZNSOIv3VGu5Da33HJZ1n1VPpDnfahr&_nc_ohc=3AAqYOmnS9EQ7kNvwHMRpJ7&_nc_gid=Bsmog2nupYhoQN81e0IX-A&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQNr6EwKYu4yrwPEjKJS_9Q5OhIWtIl7-Gva4EMLW0VUBw&oe=6AD3D6C3&_nc_sid=8b3546"
+            },
+            {
+              "caption": "HE COMMANDED",
+              "hashtags": [],
+              "location": null,
+              "type": "Video",
+              "date": "2026-10-04",
+              "alt": "",
+              "url": "https://www.instagram.com/p/DeFMSHyoXs5/",
+              "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/836547517_17961596142000620_2732014567346007370_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gFGlYX8L6XY5Hc9yVSSeWIErhhGYLrTqNe2HOzdqNhg0eGMa0e12LtjyNZNSOIv3VGu5Da33HJZ1n1VPpDnfahr&_nc_ohc=GVecM5qFg4kQ7kNvwG1beud&_nc_gid=Bsmog2nupYhoQN81e0IX-A&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQO5kuV897ATvRwBQcxb3k51AGjXswUzY0HWqWIjYcsLQA&oe=6AD3CC6B&_nc_sid=8b3546"
+            }
+          ]
+        }
+      },
+      "opportunitiescircleofficial": {
+        "at": "2026-10-13T11:05:28.647Z",
+        "data": {
+          "source": "instagram",
+          "username": "opportunitiescircleofficial",
+          "name": "Opportunities Circle 👨‍🎓",
+          "bio": "Leading opportunities discovering platform for youth globally 🌍✈️🎓\nFor collaboration and advertisement, contact advertise@opportunitiescircle.com",
+          "website": "https://linktr.ee/opportunitiescircle",
+          "category": "Education website",
+          "followers": 1568821,
+          "following": 6,
+          "postCount": 8676,
+          "isPrivate": false,
+          "avatar": "https://scontent-dus1-1.cdninstagram.com/v/t51.2885-19/23417034_143491842944018_4716131565707460608_n.jpg?_nc_cat=1&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy45NjAuQzMifQ%3D%3D&_nc_ohc=Za8yOOMptU8Q7kNvwETJN40&_nc_oc=Adojh8OCb-6MIMUtCB_5CMvBGHAkCNU03wNkWtMkuCrzq9GKI-B4V1MMWP7MJRLfC1c&_nc_zt=24&_nc_ht=scontent-dus1-1.cdninstagram.com&_nc_ss=70a8c&oh=00_AQPsQWpDG6IKviJW9Th9d3H5_o33eh15Ef19Xz5miZzpCQ&oe=6AD3DA80",
+          "posts": [
+            {
+              "caption": "Planning to apply for the Erasmus Mundus Scholarship? Join our Free Online Erasmus Mundus Scholarship Session and get practical guidance to strengthen your application.\n\nLearn directly from Mohsin, an Erasmus Scholar, as he shares insights on the application process, motivation letter, important application tips, and more to help prospective applicants better understand the Erasmus Mundus journey.\n\nSession Details:\nDate: 15 October 2026\nMode: Online via Zoom\nSession: Free\n\nWhether you are starti",
+              "hashtags": [
+                "opportunitiescircle",
+                "erasmusmundus",
+                "erasmusscholarship",
+                "studyineurope",
+                "scholarshipopportunities"
+              ],
+              "location": null,
+              "type": "Image",
+              "date": "2026-10-13",
+              "alt": "",
+              "url": "https://www.instagram.com/p/DebpxAYFbF7/",
+              "image": "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/846430656_18373109971208620_1195776040463287616_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-fra3-2.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gGBRP8htaPKTwbItVMQyY8_i2zQJol4z4XrDpn1iMrordTgR98687Nd3qAjLclDxf8&_nc_ohc=APBkH0fph-sQ7kNvwFoEDJj&_nc_gid=IwtppgK8wg0dUfQmqeeyAg&edm=APU89FABAAAA&ccb=7-5&oh=00_AQMRocJhr9FCJB5LUcktVmrgKZCfmqADyPY51G8f4Fiq1w&oe=6AD3FD48&_nc_sid=bc0c2c"
+            },
+            {
+              "caption": "Salzburg Global Communications Internship 2027 in Austria | Funded\n\nBenefits:\n• Gain hands-on experience in communications, media, and digital content creation.\n• Work on social media management, storytelling, and promotional campaigns.\n• Collaborate with an international team of professionals and experts.\n• Develop skills in content writing, photography, and digital communications.\n• Gain professional exposure to global leadership and international programs.\n\nDeadline: Varies\n\nLink is available",
+              "hashtags": [
+                "opportunitiescircle",
+                "salzburgglobal",
+                "communicationsinternship",
+                "austria",
+                "internshipopportunities"
+              ],
+              "location": null,
+              "type": "Image",
+              "date": "2026-10-13",
+              "alt": "",
+              "url": "https://www.instagram.com/p/Debi4Qdil2s/",
+              "image": "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/846737617_18373103554208620_452943125446332644_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-fra3-2.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gGBRP8htaPKTwbItVMQyY8_i2zQJol4z4XrDpn1iMrordTgR98687Nd3qAjLclDxf8&_nc_ohc=YnaGgNZQjfkQ7kNvwFrsgjS&_nc_gid=IwtppgK8wg0dUfQmqeeyAg&edm=APU89FABAAAA&ccb=7-5&oh=00_AQPk573DSpxhsszWRtH_ZeKdyAcaXZQn7Gbj0fIgAeZyaQ&oe=6AD3D350&_nc_sid=bc0c2c"
+            },
+            {
+              "caption": "USTC Winter Camp in China 2026\n\nBenefits\n• Allowance for travel, accommodation, and meals fully covered.\n• Explore research labs and attend academic lectures.\n• Cultural visits and interaction with USTC professors.\n• Designed for international undergraduate and graduate students.\n \nDeadline: November 20, 2025.\n\nLink is available in our story and highlights\n\nCredit to: International College of University of Science and Technology of China\n\nOpportunities Circle does not claim ownership of opportun",
+              "hashtags": [
+                "opportunitiescircle",
+                "internship",
+                "china",
+                "ustc",
+                "fullyfunded"
+              ],
+              "location": null,
+              "type": "Image",
+              "date": "2026-10-13",
+              "alt": "",
+              "url": "https://www.instagram.com/p/DebO_BIijG3/",
+              "image": "https://scontent-fra5-1.cdninstagram.com/v/t51.82787-15/848119388_18373090069208620_3543841083063028936_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-fra5-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2gGBRP8htaPKTwbItVMQyY8_i2zQJol4z4XrDpn1iMrordTgR98687Nd3qAjLclDxf8&_nc_ohc=OnUqerCZArkQ7kNvwGU00DT&_nc_gid=IwtppgK8wg0dUfQmqeeyAg&edm=APU89FABAAAA&ccb=7-5&oh=00_AQP6lURR2yyhjlfN6TQ9X57aOCNdeywSi5IGqbtlwtADGQ&oe=6AD3F08B&_nc_sid=bc0c2c"
+            },
+            {
+              "caption": "University of British Columbia Fellowship 2026 in Canada | Fully Funded \n\nBenefits:\n• Financial support for graduate students at the University of British Columbia.\n• Annual stipend to assist with living expenses.\n• Great opportunity to study for free in Canada.\n• Opportunity to study at a top-ranked research university in Canada.\n\nDeadline: Varies by department and program.\n\nLink is available in our story and highlights\n\nCredit to: University of British Columbia\n\nOpportunities Circle does not c",
+              "hashtags": [
+                "opportunitiescircle",
+                "canada",
+                "fellowship",
+                "graduate",
+                "ubc"
+              ],
+              "location": null,
+              "type": "Image",
+              "date": "2026-10-12",
+              "alt": "",
+              "url": "https://www.instagram.com/p/DeaXXmIGDAu/",
+              "image": "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/845124977_18373039162208620_173156074688546095_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-fra3-2.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gGBRP8htaPKTwbItVMQyY8_i2zQJol4z4XrDpn1iMrordTgR98687Nd3qAjLclDxf8&_nc_ohc=pzvL1XsUt4EQ7kNvwEz5MQO&_nc_gid=IwtppgK8wg0dUfQmqeeyAg&edm=APU89FABAAAA&ccb=7-5&oh=00_AQNBQdT4aw70kItDm-5oKxla9VP5c9bEImCBgMk4BPEITQ&oe=6AD3D555&_nc_sid=bc0c2c"
+            },
+            {
+              "caption": "Boston University Presidential Scholarship 2026 in USA | Fully Funded\n\nBenefits:\n• Scholarship award per academic year toward undergraduate tuition fees.\n• Renewable for up to four years of undergraduate study, subject to maintaining eligibility requirements.\n• Opportunity to study at Boston University, a leading research university in the USA.\n• Recognition for outstanding academic achievement, leadership, and extracurricular involvement.\n\nDeadline: December 1, 2026\n\nLink is available in our st",
+              "hashtags": [
+                "opportunitiescircle",
+                "usa",
+                "scholarship",
+                "bostonuniversity",
+                "undergraduate"
+              ],
+              "location": null,
+              "type": "Image",
+              "date": "2026-10-12",
+              "alt": "",
+              "url": "https://www.instagram.com/p/DeaJo1wDKQk/",
+              "image": "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/847006750_18373030486208620_5947699820851603140_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-fra3-2.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gGBRP8htaPKTwbItVMQyY8_i2zQJol4z4XrDpn1iMrordTgR98687Nd3qAjLclDxf8&_nc_ohc=Q9eLhGcJOZcQ7kNvwFD_x0O&_nc_gid=IwtppgK8wg0dUfQmqeeyAg&edm=APU89FABAAAA&ccb=7-5&oh=00_AQMMDIk6X8TWO6kGW1zcIW2Ezz5CJFlO1LVGBBKaTKDdyQ&oe=6AD3DAA9&_nc_sid=bc0c2c"
+            },
+            {
+              "caption": "Netflix Internship Program 2026\n\nBenefits:\n• Paid internship opportunities at Netflix across various departments.\n• Hands-on professional experience in a global media company.\n• Exposure to real-world projects and industry practices.\n• Mentorship and learning opportunities from experienced professionals.\n• Opportunity to build professional and technical skills.\n\nDeadline: Varies\n\nLink is available in our story and highlights\n\nCredit to: Netflix\n\nOpportunities Circle does not claim ownership of o",
+              "hashtags": [
+                "opportunitiescircle",
+                "usa",
+                "internship",
+                "netflix",
+                "careers"
+              ],
+              "location": null,
+              "type": "Image",
+              "date": "2026-10-12",
+              "alt": "",
+              "url": "https://www.instagram.com/p/DeZ76gsFYx0/",
+              "image": "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/846449406_18373018345208620_5464278093218041219_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-fra3-2.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gGBRP8htaPKTwbItVMQyY8_i2zQJol4z4XrDpn1iMrordTgR98687Nd3qAjLclDxf8&_nc_ohc=kZFXE4WJazMQ7kNvwFXIkJX&_nc_gid=IwtppgK8wg0dUfQmqeeyAg&edm=APU89FABAAAA&ccb=7-5&oh=00_AQMd5QnD6XsRp1UdfKS-V_o-snlpbPiiJQvyhOLQKLeHaQ&oe=6AD3DDCD&_nc_sid=bc0c2c"
+            },
+            {
+              "caption": "JINR Winter Student Program 2027 in Russia | Fully Funded\n\nBenefits:\n• Travel expenses covered for selected participants.\n• Accommodation provided during the program.\n• Financial support for meals and daily expenses.\n• Gain hands-on experience in scientific research and laboratory projects.\n• Work with international researchers and experts at JINR.\n\nDeadline: October 16, 2026\n\nLink is available in our story and highlights\n\nCredit to: Joint Institute for Nuclear Research (JINR)\n\nOpportunities Cir",
+              "hashtags": [
+                "opportunitiescircle",
+                "jinr",
+                "winterprogram",
+                "fullyfunded",
+                "researchopportunities"
+              ],
+              "location": null,
+              "type": "Image",
+              "date": "2026-10-12",
+              "alt": "",
+              "url": "https://www.instagram.com/p/DeZnWgzDVXq/",
+              "image": "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/846394228_18372994102208620_8879519898354663318_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-fra3-2.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gGBRP8htaPKTwbItVMQyY8_i2zQJol4z4XrDpn1iMrordTgR98687Nd3qAjLclDxf8&_nc_ohc=E0uWV1uCXRUQ7kNvwHuZn6G&_nc_gid=IwtppgK8wg0dUfQmqeeyAg&edm=APU89FABAAAA&ccb=7-5&oh=00_AQOEwd5i-XMkYTdHZ0sUnpsigbTyD3qp390vrnCI4h3EFw&oe=6AD3E3D9&_nc_sid=bc0c2c"
+            },
+            {
+              "caption": "Want to add international experience to your CV? We’ve rounded up internship opportunities from leading companies, research institutes, global organizations, and international institutions with opportunities across different fields and career paths.\n\nDepending on the program, you could gain:\n→ Hands-on industry or research experience\n→ Professional training and mentorship\n→ International workplace exposure\n→ Networking opportunities\n→ Financial support\n\nFind an opportunity that matches your goal",
+              "hashtags": [
+                "OpportunitiesCircle",
+                "InternationalInternships",
+                "Internships",
+                "StudentOpportunities",
+                "CareerGrowth"
+              ],
+              "location": null,
+              "type": "Sidecar",
+              "date": "2026-10-12",
+              "alt": "",
+              "url": "https://www.instagram.com/p/DeZTC_oinbe/",
+              "image": "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/845552947_18372971152208620_4455990176406988573_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-fra3-2.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gGBRP8htaPKTwbItVMQyY8_i2zQJol4z4XrDpn1iMrordTgR98687Nd3qAjLclDxf8&_nc_ohc=WR-b5alW93IQ7kNvwGs2ALd&_nc_gid=IwtppgK8wg0dUfQmqeeyAg&edm=APU89FABAAAA&ccb=7-5&oh=00_AQOHTamRhBPBZwA6dGJ9MCJz3u5rvXC_S9cC25-cOY5e3w&oe=6AD3F1D2&_nc_sid=bc0c2c"
+            },
+            {
+              "caption": "Planning to apply for the Erasmus Mundus Scholarship but don't know where to start?\n\nYour chance to learn directly from an Erasmus Mundus Scholar is here!\n\nOpportunities Circle is hosting a FREE Erasmus Mundus Online Session with Erasmus Scholar Mohsin to help you understand the scholarship and prepare a stronger application.\n\nWhat will you learn?\n• How to find the right Erasmus Mundus programs\n• Eligibility criteria and application requirements\n• Scholarship benefits and funding opportunities\n•",
+              "hashtags": [
+                "opportunitiescircle",
+                "erasmusmundus",
+                "erasmusscholarship",
+                "studyineurope",
+                "fullyfundedscholarships"
+              ],
+              "location": null,
+              "type": "Video",
+              "date": "2026-10-12",
+              "alt": "",
+              "url": "https://www.instagram.com/p/DeZOuCxNz8e/",
+              "image": "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/848307450_18372966970208620_7444768613109733916_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-fra3-2.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gGBRP8htaPKTwbItVMQyY8_i2zQJol4z4XrDpn1iMrordTgR98687Nd3qAjLclDxf8&_nc_ohc=3E3JQtXPCfAQ7kNvwHAXRNs&_nc_gid=IwtppgK8wg0dUfQmqeeyAg&edm=APU89FABAAAA&ccb=7-5&oh=00_AQMfqntcgZu1mxv9LTBUvE2__ALKNkxvjPtPNat5UwKjFg&oe=6AD3D19E&_nc_sid=bc0c2c"
+            },
+            {
+              "caption": "Comment 'Harvard' to get the link\n\nHarvard University is offering fully funded online courses that you can join from anywhere in the world, completely online and at your own pace.\n\nWhether you're interested in Data Science, Business, Computer Science, Health Sciences, Art & Design, or more, these courses are a great way to learn from Harvard faculty, gain valuable knowledge, and strengthen your CV with flexible, self-paced learning.\n\nWhy should you apply?\n🌍 Open to applicants worldwide\n💻 Self-",
+              "hashtags": [
+                "opportunitiescircle",
+                "harvard",
+                "onlinecourses",
+                "freecourses",
+                "studyonline"
+              ],
+              "location": null,
+              "type": "Sidecar",
+              "date": "2026-10-12",
+              "alt": "",
+              "url": "https://www.instagram.com/p/DeY-JIfm3mS/",
+              "image": "https://scontent-fra3-1.cdninstagram.com/v/t51.82787-15/848014607_17929270116414954_6626675812337655179_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-fra3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gGBRP8htaPKTwbItVMQyY8_i2zQJol4z4XrDpn1iMrordTgR98687Nd3qAjLclDxf8&_nc_ohc=ccG1sudBwV0Q7kNvwGMhCDc&_nc_gid=IwtppgK8wg0dUfQmqeeyAg&edm=APU89FABAAAA&ccb=7-5&oh=00_AQPeywE47LB1izr5yU2gvrsgEPqA4Pi-xdNt2qF3As_qzA&oe=6AD3E33F&_nc_sid=bc0c2c"
+            },
+            {
+              "caption": "Doha Institute Scholarships 2027 in Qatar | Fully Funded\n\nBenefits:\n• Full tuition fee coverage for selected students.\n• Accommodation provided during the study period.\n• Monthly living allowance provided.\n• Health insurance coverage included.\n• Travel support provided for eligible international students.\n\nDeadline: January 15, 2027\n\nLink is available in our story and highlights\n\nCredit to: Doha Institute for Graduate Studies\n\nOpportunities Circle does not claim ownership of opportunities shared",
+              "hashtags": [
+                "opportunitiescircle",
+                "dohainstitute",
+                "qatarscholarships",
+                "fullyfunded",
+                "studyinqatar"
+              ],
+              "location": null,
+              "type": "Image",
+              "date": "2026-10-12",
+              "alt": "",
+              "url": "https://www.instagram.com/p/DeYpg4KisrJ/",
+              "image": "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/847570159_18372940492208620_5180945912810333383_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-fra3-2.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gGBRP8htaPKTwbItVMQyY8_i2zQJol4z4XrDpn1iMrordTgR98687Nd3qAjLclDxf8&_nc_ohc=mAnfc8auAF4Q7kNvwHHymOx&_nc_gid=IwtppgK8wg0dUfQmqeeyAg&edm=APU89FABAAAA&ccb=7-5&oh=00_AQNQ3hDoTzZV7hAcZ9n4SNnMp2nN_YLd3iwdTphOYmzl7Q&oe=6AD3D554&_nc_sid=bc0c2c"
+            },
+            {
+              "caption": "USDA Internship Program 2027 in the USA\n\nBenefits:\n• Gain hands-on professional experience at the U.S. Department of Agriculture.\n• Work on research, data analysis, communications, outreach, and program operations.\n• Receive mentorship and guidance from USDA professionals.\n• Participate in professional development and learning\nsessions.\n• Gain practical exposure to public service, agriculture, science, and policy.\n\nDeadline: November 13, 2026\n\nLink is available in our story and highlights\n\nCredi",
+              "hashtags": [
+                "opportunitiescircle",
+                "usdainternship",
+                "internship",
+                "careeropportunities",
+                "usa"
+              ],
+              "location": null,
+              "type": "Image",
+              "date": "2026-10-11",
+              "alt": "",
+              "url": "https://www.instagram.com/p/DeXyj2QisU-/",
+              "image": "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/847570152_18372898669208620_9177385601487274324_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-fra3-2.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gGBRP8htaPKTwbItVMQyY8_i2zQJol4z4XrDpn1iMrordTgR98687Nd3qAjLclDxf8&_nc_ohc=lDVilGc42rMQ7kNvwHTibiw&_nc_gid=IwtppgK8wg0dUfQmqeeyAg&edm=APU89FABAAAA&ccb=7-5&oh=00_AQOBQJy5a2gBXfsnsdDGzFlH7YzT9zuwewYMNNY7Vd91qA&oe=6AD3CA4F&_nc_sid=bc0c2c"
+            }
+          ]
+        }
+      }
+    },
+    "analysis": {
+      "806885e05401d97c": {
+        "at": "2026-10-13T11:09:27.902Z",
+        "notes": {
+          "linkedin": {
+            "observations": [
+              {
+                "note": "She is deeply immersed in the field of Artificial Intelligence, showing a consistent career trajectory from internships to associate roles.",
+                "evidence": "Headline: 'AI & Data Science Graduate | AI Enthusiast | Generative AI 🚀'"
+              },
+              {
+                "note": "She is currently in the early stages of her professional career, transitioning from a student to an associate engineer role.",
+                "evidence": "Experience: 'AI & data Associate Engineer' at RoadMetrics AI for '2 mos' and Education: 'Bachelor of Engineering' (2021 - 2025)."
+              },
+              {
+                "note": "She possesses a technical and analytical mindset, with a strong foundation in complex programming and data manipulation.",
+                "evidence": "Skills: 'Deep Learning', 'Python', 'Natural Language Processing (NLP)', and 'Data Structures'."
+              },
+              {
+                "note": "She has a background in full-stack development, suggesting she understands how to build user-facing interfaces as well as backend logic.",
+                "evidence": "Experience: 'Worked on full stack web applications using Java for backend development and React JS for building dynamic frontend interfaces.'"
+              },
+              {
+                "note": "She is based in a major global tech hub, which likely influences her professional network and lifestyle.",
+                "evidence": "Location: 'Greater Bengaluru Area'"
+              },
+              {
+                "note": "She shows a commitment to practical application and quality control in her work.",
+                "evidence": "Experience: 'Working on labeling and tagging data for AI models, checking data for accuracy, reviewing and correcting annotations'."
+              },
+              {
+                "note": "She has explored the intersection of technology and real-world sectors like healthcare and finance.",
+                "evidence": "Experience: 'Understood practical applications of AI in domains such as healthcare and fi'"
+              },
+              {
+                "note": "She is likely a continuous learner, having completed multiple internships across different specializations within tech.",
+                "evidence": "Experience includes roles as 'Web Development Intern', 'Data Science Intern', and 'Artificial Intelligence Specialist'."
+              }
+            ],
+            "keywords": [
+              "AI Enthusiast",
+              "Data Scientist",
+              "Tech-Savvy",
+              "Analytical",
+              "Bengaluru-based",
+              "Early Career Professional",
+              "Full-Stack Knowledge"
+            ],
+            "dataQuality": "moderate",
+            "gaps": [
+              "Personal hobbies and interests outside of technology",
+              "Communication style and social personality",
+              "Daily routine and work-life balance preferences",
+              "Values and long-term personal goals"
+            ]
+          },
+          "instagram": {
+            "observations": [
+              {
+                "note": "The profile belongs to a global educational platform, not an individual, focused on youth empowerment and career development.",
+                "evidence": "Bio: 'Leading opportunities discovering platform for youth globally 🌍✈️🎓'"
+              },
+              {
+                "note": "The entity values international mobility and cross-cultural exchange through academic and professional programs.",
+                "evidence": "Hashtags like #studyineurope, #china, #canada, #usa, and #qatarscholarships appear across multiple posts."
+              },
+              {
+                "note": "They prioritize accessibility to high-level education by highlighting 'fully funded' opportunities.",
+                "evidence": "Captions frequently mention 'Fully Funded', 'Free Online Erasmus Mundus Scholarship Session', and 'Full tuition fee coverage'."
+              },
+              {
+                "note": "The platform is highly active and influential, maintaining a massive audience interested in professional growth.",
+                "evidence": "Followers: 1,568,821; Post Count: 8,676."
+              },
+              {
+                "note": "They provide practical, hands-on guidance rather than just listing links, such as hosting webinars with scholars.",
+                "evidence": "Caption: 'Learn directly from Mohsin, an Erasmus Scholar, as he shares insights on the application process...'"
+              },
+              {
+                "note": "The content covers a wide range of career stages, from undergraduate scholarships to graduate fellowships and corporate internships.",
+                "evidence": "Posts include 'Boston University Presidential Scholarship... for undergraduate' and 'University of British Columbia Fellowship... for graduate students'."
+              },
+              {
+                "note": "They emphasize prestige and quality by featuring world-renowned institutions.",
+                "evidence": "Captions mention 'Harvard University', 'Netflix Internship Program', and 'Boston University'."
+              },
+              {
+                "note": "The entity operates as a bridge for collaborations and advertisements within the educational sector.",
+                "evidence": "Bio: 'For collaboration and advertisement, contact advertise@opportunitiescircle.com'"
+              }
+            ],
+            "keywords": [
+              "Education",
+              "Scholarships",
+              "Global Mobility",
+              "Career Development",
+              "Youth Empowerment",
+              "Internships",
+              "Mentorship"
+            ],
+            "dataQuality": "rich",
+            "gaps": [
+              "The data represents an organization/brand, so it does not reveal personal traits, hobbies, or the private life of an individual.",
+              "Specific location of the headquarters or the founders' identities are not mentioned.",
+              "Personal values outside of education and professional advancement are not present."
+            ]
+          }
+        },
+        "profile": {
+          "name": "Radhika Bhangi",
+          "headline": "AI & Data Science Associate Engineer",
+          "location": "Greater Bengaluru Area",
+          "oneLiner": "A tech-forward innovator who balances the logic of data science with a global perspective on growth and opportunity.",
+          "summary": "Radhika is an ambitious professional at the forefront of the AI revolution, currently building her career in Bengaluru's vibrant tech scene. She combines a rigorous analytical mindset with a passion for continuous learning and global advancement. As a partner, she brings a blend of intellectual curiosity and a structured, goal-oriented approach to life.",
+          "needs": [
+            {
+              "need": "Intellectual stimulation and tech-fluency",
+              "why": "Her career is built on complex fields like Deep Learning and Generative AI, suggesting she values deep, analytical conversations.",
+              "source": "linkedin"
+            },
+            {
+              "need": "Support for high-reaching career goals",
+              "why": "She is in the early stages of a demanding career in a competitive tech hub and is likely focused on professional growth.",
+              "source": "linkedin"
+            },
+            {
+              "need": "A shared interest in global opportunities",
+              "why": "Her association with 'Opportunities Circle' indicates she values international mobility, scholarships, and professional development.",
+              "source": "instagram"
+            }
+          ],
+          "hobbies": [
+            {
+              "name": "Exploring Generative AI",
+              "evidence": "Lists 'AI Enthusiast' and 'Generative AI' in her professional headline.",
+              "source": "linkedin"
+            },
+            {
+              "name": "Professional Mentorship/Guidance",
+              "evidence": "Involved with a platform that shares global scholarships and internships for youth.",
+              "source": "instagram"
+            }
+          ],
+          "interests": [
+            {
+              "name": "Full-Stack Development",
+              "evidence": "Has experience building applications using Java and React JS.",
+              "source": "linkedin"
+            },
+            {
+              "name": "Global Education & Mobility",
+              "evidence": "Her Instagram profile focuses on international scholarships and fully funded programs.",
+              "source": "instagram"
+            },
+            {
+              "name": "Data Accuracy & Quality",
+              "evidence": "Experience in labeling, tagging, and reviewing data for AI models.",
+              "source": "linkedin"
+            }
+          ],
+          "values": [
+            {
+              "name": "Continuous Learning",
+              "evidence": "Has completed multiple internships across web development, data science, and AI within a short timeframe."
+            },
+            {
+              "name": "Accessibility to Opportunity",
+              "evidence": "Promotes 'fully funded' global opportunities for youth empowerment."
+            }
+          ],
+          "personality": [
+            {
+              "trait": "Analytical",
+              "evidence": "Focuses on data structures, NLP, and deep learning."
+            },
+            {
+              "trait": "Ambitious",
+              "evidence": "Transitioned quickly from student to Associate Engineer in a specialized AI field."
+            }
+          ],
+          "vibe": {
+            "adventurous": 65,
+            "social": 50,
+            "ambitious": 95,
+            "spontaneous": 30,
+            "creative": 60
+          },
+          "lifestyle": {
+            "work": "High-growth tech environment, likely involved in the Bengaluru startup or AI ecosystem.",
+            "weekends": "Likely spent upskilling or engaging with global educational communities.",
+            "travel": "Interested in global mobility and international educational hubs.",
+            "fitness": "No data available."
+          },
+          "communicationStyle": "Likely direct, logical, and structured, reflecting her background in programming and data review.",
+          "greenFlags": [
+            "Highly driven and self-motivated",
+            "Values education and helping others find opportunities",
+            "Possesses a high level of technical expertise and discipline"
+          ],
+          "frictions": [
+            "May prioritize career growth and learning over leisure in this life stage",
+            "Logic-heavy approach might clash with highly emotional or spontaneous personalities"
+          ],
+          "idealMatch": "A fellow tech professional or an ambitious academic who understands the 'hustle' of Bengaluru and shares a passion for global travel and innovation.",
+          "dateIdeas": [
+            "A visit to a tech-themed cafe in Bengaluru to discuss the latest in Generative AI.",
+            "Attending a global education seminar or a professional networking mixer together.",
+            "A quiet evening at a bookstore with a great selection of technical and self-growth literature."
+          ],
+          "conversationStarters": [
+            "What's the most interesting application of Generative AI you've seen lately?",
+            "If you could take one of those fully funded scholarships to any country, where would you go?",
+            "How has the transition from student to Associate Engineer in Bengaluru been for you?"
+          ],
+          "confidence": 75,
+          "dataGaps": [
+            "Personal hobbies outside of work/education are unknown.",
+            "Daily social habits and personal lifestyle preferences are not documented.",
+            "Specific personal values beyond professional/educational advancement are missing."
+          ]
+        }
+      },
+      "b53d5094fb1a48f9": {
+        "at": "2026-10-13T11:10:49.297Z",
+        "notes": {
+          "linkedin": {
+            "observations": [
+              {
+                "note": "He values directness and efficiency over superficiality, describing himself as someone who 'cuts through the fluff.'",
+                "evidence": "about: 'I care about results, not buzzwords... If you’re looking for a developer who cuts through the fluff, let’s talk.'"
+              },
+              {
+                "note": "He possesses a supportive and empathetic side, having served as a guide to help others with emotional and mental well-onboarding.",
+                "evidence": "experience: 'Student's Guide... I helped students by providing them mental and emotional support.'"
+              },
+              {
+                "note": "He is currently in a phase of intentional self-improvement and skill-building during a career transition.",
+                "evidence": "experience: 'Career transition... Focused on strengthening and applying skills across software development and emerging technologies.'"
+              },
+              {
+                "note": "He has a competitive or high-achieving streak, having been recognized for his high output in previous roles.",
+                "evidence": "experience: 'I was known as a rockstar of the annotations, as I did more annotations.'"
+              },
+              {
+                "note": "He is a lifelong learner who spends his free time staying intellectually sharp through personal projects.",
+                "evidence": "about: 'Outside of work, I’m probably tinkering with a new project or learning something to stay sharp.'"
+              },
+              {
+                "note": "He has a background in sports analytics, suggesting a possible interest in football (soccer).",
+                "evidence": "certifications: 'Football Analytics Using Python'"
+              },
+              {
+                "note": "He has experience in high-stakes sales, indicating he likely possesses strong communication and persuasion skills.",
+                "evidence": "experience: 'Property Advisor... My core role was in sales... sale the real estate properties like Hiranandani, Tata, Piramal, etc.'"
+              },
+              {
+                "note": "He is comfortable with leadership and mentorship, having trained a significant number of peers early in his career.",
+                "evidence": "experience: 'I trained 20+ students for the same [data annotation].'"
+              }
+            ],
+            "keywords": [
+              "No-nonsense",
+              "Problem-solver",
+              "Tech-tinkerer",
+              "Empathetic mentor",
+              "Results-oriented",
+              "Self-taught",
+              "Bengaluru-based"
+            ],
+            "dataQuality": "rich",
+            "gaps": [
+              "Personal hobbies outside of tech and football analytics",
+              "Social life and lifestyle preferences",
+              "Specific personality traits outside of a professional context",
+              "Travel interests or daily routine"
+            ]
+          },
+          "instagram": {
+            "observations": [
+              {
+                "note": "The individual has a strong interest in historical narratives and ancient civilizations.",
+                "evidence": "Caption: 'The Prince Who Refused to Flee and Built the Inca Empire'"
+              },
+              {
+                "note": "They are fascinated by stories of leadership and decisive action.",
+                "evidence": "Caption: 'HE COMMANDED' and 'he stayed.'"
+              },
+              {
+                "note": "The profile is focused on educational or documentary-style content rather than personal life.",
+                "evidence": "Hashtags used include #history, #historyfacts, and #machupicchu."
+              },
+              {
+                "note": "They prefer video as a medium for sharing information.",
+                "evidence": "All 4 posts are listed as 'type': 'Video'."
+              },
+              {
+                "note": "The account appears to be a niche content creator or a themed page rather than a personal social profile.",
+                "evidence": "Username is 'ouraivideos' and name is 'OurVideos' with 0 followers and 0 following."
+              },
+              {
+                "note": "There is a specific interest in South American history, particularly the Inca Empire.",
+                "evidence": "Hashtags: #inca, #machupicchu"
+              }
+            ],
+            "keywords": [
+              "History Enthusiast",
+              "Content Creator",
+              "Educational",
+              "Inca Empire",
+              "Storyteller",
+              "Video-focused"
+            ],
+            "dataQuality": "thin",
+            "gaps": [
+              "No personal information (hobbies, lifestyle, values) is available.",
+              "No professional background or LinkedIn data provided.",
+              "No indication of social interactions or personality traits outside of content interests.",
+              "The profile lacks a bio or website to provide context on the creator's identity."
+            ]
+          }
+        },
+        "profile": {
+          "name": "Mayur Wagh",
+          "headline": "Software Developer & Historical Storyteller",
+          "location": "Bengaluru, Karnataka, India",
+          "oneLiner": "A results-driven developer and history enthusiast who balances a 'no-nonsense' work ethic with a deeply supportive and empathetic heart.",
+          "summary": "Mayur is a rare blend of technical precision and emotional intelligence, moving from high-stakes sales and software engineering to roles where he mentored others through mental and emotional challenges. He is currently in a phase of intentional self-improvement, valuing growth and authenticity over superficiality. As a partner, he brings the stability of a problem-solver and the curiosity of a lifelong learner who finds beauty in historical narratives.",
+          "needs": [
+            {
+              "need": "Authenticity and Directness",
+              "why": "He explicitly states he 'cuts through the fluff' and values results over buzzwords, suggesting he appreciates straightforward communication.",
+              "source": "linkedin"
+            },
+            {
+              "need": "Intellectual Stimulation",
+              "why": "He spends his free time 'tinkering' with new projects and learning to stay sharp, indicating a need for a partner who values growth.",
+              "source": "linkedin"
+            },
+            {
+              "need": "Emotional Depth",
+              "why": "His experience as a 'Student's Guide' providing emotional support shows he values and understands the importance of mental well-being.",
+              "source": "linkedin"
+            }
+          ],
+          "hobbies": [
+            {
+              "name": "Tech Tinkering",
+              "evidence": "Mentioned he is 'probably tinkering with a new project or learning something to stay sharp' in his free time.",
+              "source": "linkedin"
+            },
+            {
+              "name": "Historical Content Creation",
+              "evidence": "Runs an Instagram account focused on AI-generated historical videos about the Inca Empire.",
+              "source": "instagram"
+            }
+          ],
+          "interests": [
+            {
+              "name": "Football Analytics",
+              "evidence": "Holds a certification in 'Football Analytics Using Python'.",
+              "source": "linkedin"
+            },
+            {
+              "name": "Ancient Civilizations",
+              "evidence": "His Instagram content focuses heavily on the Inca Empire and historical figures like Pachacuti.",
+              "source": "instagram"
+            },
+            {
+              "name": "AI/ML Development",
+              "evidence": "His professional headline and current skill-building focus on AI, ML, and Python.",
+              "source": "linkedin"
+            }
+          ],
+          "values": [
+            {
+              "name": "Efficiency",
+              "evidence": "Describes himself as someone who cares about results and avoids 'buzzwords'."
+            },
+            {
+              "name": "Mentorship",
+              "evidence": "Has a history of training 20+ peers and acting as a guide for students' emotional well-being."
+            },
+            {
+              "name": "Continuous Growth",
+              "evidence": "Currently in a 'career transition' phase focused on strengthening and applying new skills."
+            }
+          ],
+          "personality": [
+            {
+              "trait": "High-Achieving",
+              "evidence": "Was known as a 'rockstar of the annotations' for his high output."
+            },
+            {
+              "trait": "Empathetic",
+              "evidence": "Provided mental and emotional support to students in a formal guide capacity."
+            },
+            {
+              "trait": "Persuasive",
+              "evidence": "Background in high-end real estate sales for major developers like Tata and Piramal."
+            }
+          ],
+          "vibe": {
+            "adventurous": 40,
+            "social": 65,
+            "ambitious": 90,
+            "spontaneous": 30,
+            "creative": 75
+          },
+          "lifestyle": {
+            "work": "Intense and focused; currently transitioning into advanced tech roles with a 'no-fluff' attitude.",
+            "weekends": "Likely spent on personal coding projects, learning new tech, or creating historical video content.",
+            "travel": "Data suggests an interest in historical sites (e.g., Machu Picchu), though actual travel habits are unconfirmed.",
+            "fitness": "No specific data, though interest in football analytics suggests a sports-adjacent lifestyle."
+          },
+          "communicationStyle": "Direct, efficient, and results-oriented, but capable of high empathy and patience when in a mentorship or supportive role.",
+          "greenFlags": [
+            "High emotional intelligence (demonstrated by his role as a student guide)",
+            "Strong work ethic and self-motivation",
+            "Ability to simplify complex topics (sales and teaching background)"
+          ],
+          "frictions": [
+            "May have little patience for small talk or 'fluff'",
+            "High ambition might lead to a work-centric lifestyle during his current career transition",
+            "Competitive nature ('rockstar' status) might be intense for some"
+          ],
+          "idealMatch": "An ambitious professional who values direct communication and has their own intellectual passions. Someone who appreciates a partner that is both a high-performer and a supportive listener.",
+          "dateIdeas": [
+            "A visit to a local museum or historical exhibit followed by a deep-dive discussion over coffee.",
+            "A 'hackathon' style date where you both work on your respective side projects in a cozy cafe.",
+            "Attending a live football match or a sports bar to discuss the game and its stats."
+          ],
+          "conversationStarters": [
+            "What's the most fascinating thing you've learned about the Inca Empire while making your videos?",
+            "You mentioned you 'cut through the fluff'—what’s a common industry buzzword that you think is totally overrated?",
+            "How did your time as a student guide change the way you approach your own mental well-being?"
+          ],
+          "confidence": 85,
+          "dataGaps": [
+            "Specific physical hobbies or fitness routines",
+            "Social life and frequency of outings",
+            "Personal lifestyle preferences (diet, pets, daily routine)",
+            "Direct personal photos (Instagram is content-only)"
+          ]
+        }
+      }
+    }
+  },
+  "createdAt": "2026-10-13T10:16:52.666Z"
+}

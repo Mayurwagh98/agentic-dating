@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: proxy-agentic-dating
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: LLM_PROVIDER
+        value: gemini
+      - key: LLM_API_KEY
+        sync: false
+      - key: APIFY_TOKEN
+        sync: false
+      - key: ADMIN_TOKEN
+        sync: false

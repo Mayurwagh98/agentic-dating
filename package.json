@@ -1,0 +1,22 @@
+{
+  "name": "agentic-dating",
+  "version": "1.0.0",
+  "description": "Agentic dating site: every person is represented by an AI agent that reads their LinkedIn + Instagram, then dates other agents on their behalf.",
+  "type": "module",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "mock": "LLM_PROVIDER=mock SCRAPER=mock node server/index.js",
+    "seed:sample": "node scripts/seed-sample.js",
+    "clean:fictional": "node scripts/remove-fictional.js",
+    "check:llm": "node scripts/check-llm.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2"
+  }
+}
